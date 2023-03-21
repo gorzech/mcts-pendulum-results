@@ -2,6 +2,7 @@ using LinearAlgebra
 using MKL
 # BLAS.set_num_threads(1)
 using Environments
+import Environments: reward
 using PureMCTS
 
 seed_shoft_from_args(args) =
