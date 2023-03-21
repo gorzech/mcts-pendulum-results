@@ -1,23 +1,7 @@
 include("mcts_single.jl")
 
 file_name = "sp_F_20221217"
-
-function Environments.reward(env::InvertedPendulumEnv)
-    x = env.state.y[1]
-    thetas = env.state.y[3:2:end]
-    is_far = (
-        x < -env.opts.x_threshold / 2 ||
-        x > env.opts.x_threshold / 2 ||
-        any(thetas .< -env.opts.theta_threshold_radians / 2) ||
-        any(thetas .> env.opts.theta_threshold_radians / 2)
-    )
-    println("Inside reward and $is_far")
-    if is_far
-        0.5
-    else
-        1.0
-    end
-end
+Environments.reward(env::InvertedPendulumEnv) = reward_discrete_1_and_0_5(env::InvertedPendulumEnv)
 
 opts = PendulumOpts()
 envfun = () -> InvertedPendulumEnv(opts)

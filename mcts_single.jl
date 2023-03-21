@@ -40,6 +40,22 @@ function single_pendulum_batch(; seed_shift, planner_file_name)
     )
 end
 
+function reward_discrete_1_and_0_5(env::InvertedPendulumEnv)
+    x = env.state.y[1]
+    thetas = env.state.y[3:2:end]
+    is_far = (
+        x < -env.opts.x_threshold / 2 ||
+        x > env.opts.x_threshold / 2 ||
+        any(thetas .< -env.opts.theta_threshold_radians / 2) ||
+        any(thetas .> env.opts.theta_threshold_radians / 2)
+    )
+    if is_far
+        0.5
+    else
+        1.0
+    end
+end
+
 function reward_cart_angle_penalty(
     env::InvertedPendulumEnv;
     cart_penalty_share = 0.5,

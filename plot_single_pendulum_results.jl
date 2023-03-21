@@ -8,8 +8,8 @@ fig_dir = "fig/sp_G"
 max_mean = 200
 
 ## Single pendulun basic reward 500 steps
-file_name = "csv/sp_E_20221215.csv"
-fig_dir = "fig/sp_E"
+file_name = "csv/sp_H_20221219.csv"
+fig_dir = "fig/sp_H"
 max_mean = 500
 
 ## Read all files
