@@ -1,5 +1,8 @@
 # Results for the single pendulum analysis using MCTS
 
-Tests settings.
+Results for the single pendulum.
 
-[Results D](Plots_fig_sp_D.md)
+| Link                   | Description                |
+| ---------------------- | -------------------------- |
+| [D](Plots_fig_sp_D.md) | Default reward.            |
+| [E](Plots_fig_sp_E.md) | Default reward, 500 steps. |

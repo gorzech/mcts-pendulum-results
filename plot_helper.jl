@@ -159,15 +159,3 @@ function setup_plots(; upscale_resolution)
     default(titlefont = fntlg, guidefont = fntlg, tickfont = fntsm, legendfont = fntsm)
     default(size = (600 * upscale_resolution, 400 * upscale_resolution)) #Plot canvas size
 end
-
-function combine_to_single_csv_from_prefix(prefix, target_file_name)
-    file_names = files_starts_with(prefix)
-    df = CSV.read(file_names, DataFrame)
-    CSV.write(target_file_name, df)
-    return df
-end
-
-function files_starts_with(prefix)
-    rd = readdir()
-    filter(x -> contains(x, prefix), rd)
-end

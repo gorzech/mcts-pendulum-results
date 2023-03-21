@@ -7,6 +7,11 @@ max_mean = 200
 file_name = "csv/sp_D_20221128.csv"
 fig_dir = "fig/sp_D"
 
+## Single pendulun basic reward 500 steps
+file_name = "csv/sp_E_20221215.csv"
+fig_dir = "fig/sp_E"
+max_mean = 500
+
 ## Read all files
 df = CSV.read(file_name, DataFrame)
 
