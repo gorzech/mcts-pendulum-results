@@ -10,3 +10,5 @@ Results for the single pendulum.
 | [G](Plots_fig_sp_G.md) | Reward 0.5 cart penalty linear. |
 | [H](Plots_fig_sp_H.md) | Reward 1 or 0.5, 500 steps.     |
 | [I](Plots_fig_sp_I.md) | Default reward, force 12N.      |
+| [J](Plots_fig_sp_J.md) | Cart penalty linear, force 10N. |
+| [K](Plots_fig_sp_K.md) | Cart penalty linear, force 12N. |
