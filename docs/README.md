@@ -2,13 +2,17 @@
 
 Results for the single pendulum.
 
-| Link                   | Description                     |
-| ---------------------- | ------------------------------- |
-| [D](Plots_fig_sp_D.md) | Default reward.                 |
-| [E](Plots_fig_sp_E.md) | Default reward, 500 steps.      |
-| [F](Plots_fig_sp_F.md) | Reward 1 or 0.5 (half-way).     |
-| [G](Plots_fig_sp_G.md) | Reward 0.5 cart penalty linear. |
-| [H](Plots_fig_sp_H.md) | Reward 1 or 0.5, 500 steps.     |
-| [I](Plots_fig_sp_I.md) | Default reward, force 12N.      |
-| [J](Plots_fig_sp_J.md) | Cart penalty linear, force 10N. |
-| [K](Plots_fig_sp_K.md) | Cart penalty linear, force 12N. |
+| Link                   | Description                      |
+| ---------------------- | -------------------------------- |
+| [D](Plots_fig_sp_D.md) | Default reward.                  |
+| [E](Plots_fig_sp_E.md) | Default reward, 500 steps.       |
+| [F](Plots_fig_sp_F.md) | Reward 1 or 0.5 (half-way).      |
+| [G](Plots_fig_sp_G.md) | Reward 0.5 cart penalty linear.  |
+| [H](Plots_fig_sp_H.md) | Reward 1 or 0.5, 500 steps.      |
+| [I](Plots_fig_sp_I.md) | Default reward, force 12N.       |
+| [J](Plots_fig_sp_J.md) | Cart penalty linear, force 10N.  |
+| [K](Plots_fig_sp_K.md) | Cart penalty linear, force 12N.  |
+| [L](Plots_fig_sp_L.md) | Angle penalty linear, force 10N. |
+| [M](Plots_fig_sp_M.md) | Angle penalty linear, force 12N. |
+| [N](Plots_fig_sp_N.md) | Tip penalty 0.5/0.5.             |
+| [O](Plots_fig_sp_O.md) | Default reward, force 15N.       |
