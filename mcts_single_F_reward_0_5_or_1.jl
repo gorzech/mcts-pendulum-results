@@ -22,9 +22,5 @@ end
 opts = PendulumOpts()
 envfun = () -> InvertedPendulumEnv(opts)
 
-
-full_budget = round.(Int, exp10.(range(1, 5, 81)))
-full_budget = full_budget[(full_budget.>=30)]
-
 b = single_pendulum_batch(seed_shift = 1:10, planner_file_name = nothing)
 execute_batch(b, file_name, envfun = envfun, show_progress = true, start_new_file = true)

@@ -1,11 +1,11 @@
 ## Import files
 include("plot_helper.jl")
 
-max_mean = 200
 
 ## Single pendulun basic reward
-file_name = "csv/sp_D_20221128.csv"
-fig_dir = "fig/sp_D"
+file_name = "csv/sp_G_20221219.csv"
+fig_dir = "fig/sp_G"
+max_mean = 200
 
 ## Single pendulun basic reward 500 steps
 file_name = "csv/sp_E_20221215.csv"
