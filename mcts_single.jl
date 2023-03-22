@@ -60,11 +60,14 @@ function reward_cart_angle_penalty(
     env::InvertedPendulumEnv;
     cart_penalty_share = 0.5,
     angle_penalty_share = 0.5,
+    cart_penalty_power = 1.0,
+    angle_penalty_power = 1.0,
 )
     x = env.state.y[1]
     θ = env.state.y[3]
-    return 1.0 - cart_penalty_share * abs(x) / env.opts.x_threshold -
-           angle_penalty_share * abs(θ) / env.opts.theta_threshold_radians
+    cart_penalty = abs(x / env.opts.x_threshold)^cart_penalty_power
+    angle_penalty = abs(θ / env.opts.theta_threshold_radians)^angle_penalty_power
+    return 1.0 - cart_penalty_share * cart_penalty - angle_penalty_share * angle_penalty
 end
 
 reward_angle_penalty(env::InvertedPendulumEnv) =
