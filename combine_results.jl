@@ -11,8 +11,8 @@ function files_starts_with(prefix)
     filter(x -> contains(x, prefix), rd)
 end
 
-prefix = "sp_R_"
-file_name = "sp_R_20230320"
+prefix = "sp_U_"
+file_name = "sp_U_20230323"
 
 combine_to_single_csv_from_prefix(prefix, "csv/$file_name.csv")
 
