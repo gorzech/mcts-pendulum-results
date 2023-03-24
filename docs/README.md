@@ -22,3 +22,6 @@ Results for the single pendulum.
 | [S](Plots_fig_sp_S.md) | Angle penalty quadratic                | 10          | 200         |
 | [T](Plots_fig_sp_T.md) | Cart penalty quadratic                 | 10          | 200         |
 | [U](Plots_fig_sp_U.md) | Penalty quadratic 0.25/0.75 cart/angle | 10          | 200         |
+| [V](Plots_fig_sp_V.md) | Angle penalty sqrt                     | 10          | 200         |
+| [W](Plots_fig_sp_W.md) | Penalty power 6/2 0.25/0.75 cart/angle | 10          | 200         |
+| [X](Plots_fig_sp_X.md) | Tip penalty 0.25/0.75 x-tip/y-tip      | 10          | 200         |
