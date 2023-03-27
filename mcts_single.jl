@@ -5,25 +5,26 @@ using Environments
 import Environments: reward
 using PureMCTS
 
-function execute_batch_single_args(args; file_name, max_force=10.0)
+function execute_batch_single_args(args; file_name, max_force = 10.0, max_steps = 200)
     seed_shift = seed_shoft_from_args(args)
 
-    opts = PendulumOpts()
-    data = Environments.PendulumData(9.81, 1.0, 0.1, 1.1, 0.5, 0.05, max_force, 0.02, "euler")
+    opts = PendulumOpts(max_steps = max_steps)
+    data =
+        Environments.PendulumData(9.81, 1.0, 0.1, 1.1, 0.5, 0.05, max_force, 0.02, "euler")
     envfun = () -> InvertedPendulumEnv(data, opts)
 
-    batch_file_name = get_batch_file_name(file_name, seed_shift=seed_shift)
+    batch_file_name = get_batch_file_name(file_name, seed_shift = seed_shift)
     println("Save results to $batch_file_name")
 
-    b = single_pendulum_batch(seed_shift=seed_shift, planner_file_name=nothing)
+    b = single_pendulum_batch(seed_shift = seed_shift, planner_file_name = nothing)
 
     execute_batch(
         b,
         batch_file_name,
-        envfun=envfun,
-        show_progress=true,
-        start_new_file=true,
-        file_dump_interval=100,
+        envfun = envfun,
+        show_progress = true,
+        start_new_file = true,
+        file_dump_interval = 100,
     )
 end
 
@@ -53,12 +54,12 @@ function single_pendulum_batch(; seed_shift, planner_file_name)
     full_budget = full_budget[(full_budget.>=30)]
 
     return planner_batch(
-        budget=full_budget,
-        horizon=4:30,
-        γ=0.5:0.05:1.0,
-        exploration_param=[0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024],
-        seed_shift=seed_shift,
-        file_name=planner_file_name,
+        budget = full_budget,
+        horizon = 4:30,
+        γ = 0.5:0.05:1.0,
+        exploration_param = [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024],
+        seed_shift = seed_shift,
+        file_name = planner_file_name,
     )
 end
 
@@ -80,10 +81,10 @@ end
 
 function reward_cart_angle_penalty(
     env::InvertedPendulumEnv;
-    cart_penalty_share=0.5,
-    angle_penalty_share=0.5,
-    cart_penalty_power=1.0,
-    angle_penalty_power=1.0
+    cart_penalty_share = 0.5,
+    angle_penalty_share = 0.5,
+    cart_penalty_power = 1.0,
+    angle_penalty_power = 1.0,
 )
     x = env.state.y[1]
     θ = env.state.y[3]
@@ -97,8 +98,8 @@ reward_angle_penalty(env::InvertedPendulumEnv) =
 
 function reward_tip_penalty(
     env::InvertedPendulumEnv;
-    x_tip_threshold=0.5,
-    y_tip_threshold=0.5
+    x_tip_threshold = 0.5,
+    y_tip_threshold = 0.5,
 )
     x = env.state.y[1]
     θ = env.state.y[3]
