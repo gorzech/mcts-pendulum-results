@@ -6,17 +6,17 @@ import Environments: reward
 using PureMCTS
 
 function execute_batch_single_args(args; file_name, max_force = 10.0, max_steps = 200)
-    seed_shift = seed_shoft_from_args(args)
+    cmd_args = parse_args(args)
+    b = single_pendulum_batch(command_args = cmd_args)
 
     opts = PendulumOpts(max_steps = max_steps)
     data =
         Environments.PendulumData(9.81, 1.0, 0.1, 1.1, 0.5, 0.05, max_force, 0.02, "euler")
     envfun = () -> InvertedPendulumEnv(data, opts)
 
-    batch_file_name = get_batch_file_name(file_name, seed_shift = seed_shift)
+    batch_file_name = get_batch_file_name(file_name, command_args = cmd_args)
     println("Save results to $batch_file_name")
 
-    b = single_pendulum_batch(seed_shift = seed_shift, planner_file_name = nothing)
 
     execute_batch(
         b,
@@ -28,28 +28,57 @@ function execute_batch_single_args(args; file_name, max_force = 10.0, max_steps 
     )
 end
 
-seed_shoft_from_args(args) =
-    if length(args) == 1
-        s12 = parse(Int, args[1])
-        s12:s12
+Base.@kwdef struct CommandArgs
+    seed_shift_start::Int = 1
+    seed_shift_end::Int = 10
+    planner_file_name::Union{String,Vector{String}, Nothing} = nothing
+end
+
+parse_args(args) = try
+    try_parse_args(args)
+catch
+    print_arguments_explaination()
+    rethrow()
+end
+
+function try_parse_args(args)
+    if length(args) == 0
+        CommandArgs()
+    elseif length(args) == 1
+        if tryparse(Int, args[1]) === nothing
+            CommandArgs(planner_file_name = args[1])
+        else
+            seed_shift_start = parse(Int, args[1])
+            CommandArgs(seed_shift_start = seed_shift_start, seed_shift_end = seed_shift_start)
+        end
     elseif length(args) == 2
-        s1 = parse(Int, args[1])
-        s2 = parse(Int, args[2])
-        s1:s2
-    elseif length(args) == 0
-        1:10
+        seed_shift_start = parse(Int, args[1])
+        if tryparse(Int, args[2]) === nothing
+            CommandArgs(seed_shift_start = seed_shift_start, seed_shift_end = seed_shift_start, planner_file_name = args[2])
+        else
+            CommandArgs(seed_shift_start = seed_shift_start, seed_shift_end = parse(Int, args[2]))
+        end
     else
-        throw(
-            ArgumentError(
-                "Incorrect number of arguments. Got $(length(args)), expected 0 to 2",
-            ),
-        )
+        seed_shift_start = parse(Int, args[1])
+        seed_shift_end = parse(Int, args[2])
+        CommandArgs(seed_shift_start = seed_shift_start, seed_shift_end = seed_shift_end, planner_file_name = args[3:end])
     end
+end
 
-get_batch_file_name(file_name; seed_shift) =
-    "$(file_name)_$(seed_shift[1])_$(seed_shift[end])"
+function print_arguments_explaination()
+    println(
+        """All arguments are optional. Multiple arguments can be provided. Those are 
+[seed_shift_start, [seed_shift_end, [existing_file_names...]]]
+By default seed_shift_start = 1, seed_shift_end = 10, and existing_file_name is empty.
+If many file names are provided it is required to provide both seed shifts as well.""",
+    )
+    nothing
+end
 
-function single_pendulum_batch(; seed_shift, planner_file_name)
+get_batch_file_name(file_name; command_args::CommandArgs) =
+    "$(file_name)_$(command_args.seed_shift_start)_$(command_args.seed_shift_end)"
+
+function single_pendulum_batch(; command_args::CommandArgs)
     full_budget = round.(Int, exp10.(range(1, 5, 81)))
     full_budget = full_budget[(full_budget.>=30)]
 
@@ -58,8 +87,8 @@ function single_pendulum_batch(; seed_shift, planner_file_name)
         horizon = 4:30,
         γ = 0.5:0.05:1.0,
         exploration_param = [0, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024],
-        seed_shift = seed_shift,
-        file_name = planner_file_name,
+        seed_shift = command_args.seed_shift_start:command_args.seed_shift_end,
+        file_name = command_args.planner_file_name,
     )
 end
 
@@ -77,6 +106,20 @@ function reward_discrete_1_and_0_5(env::InvertedPendulumEnv)
     else
         1.0
     end
+end
+
+function reward_cart_angle_use_exp(
+    env::InvertedPendulumEnv;
+    cart_share = 0.0,
+    angle_share = 1.0,
+    cart_dispersion_factor = 0.25,
+    angle_dispersion_factor = 0.25,
+)
+    x = env.state.y[1]
+    θ = env.state.y[3]
+    cart_reward = exp(-(x / env.opts.x_threshold / cart_dispersion_factor)^2)
+    angle_reward = exp(-(θ / env.opts.theta_threshold_radians / angle_dispersion_factor)^2)
+    return cart_share * cart_reward + angle_share * angle_reward
 end
 
 function reward_cart_angle_penalty(
