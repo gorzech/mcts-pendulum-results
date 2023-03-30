@@ -34,3 +34,6 @@ Results for the single pendulum.
 | [AE](Plots_fig_sp_AE.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2) | 10          | 200         |
 | [AF](Plots_fig_sp_AF.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.2xt)^2)  | 10          | 200         |
 | [AG](Plots_fig_sp_AG.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.3xt)^2)  | 10          | 200         |
+| [AH](Plots_fig_sp_AH.md) | 0.85exp(-(a/0.25at)^2)+0.15exp(-(x/0.25xt)^2) | 10          | 200         |
+| [AI](Plots_fig_sp_AI.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.1xt)^2)  | 10          | 200         |
+| [AJ](Plots_fig_sp_AJ.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.4xt)^2)  | 10          | 200         |

@@ -3,8 +3,8 @@ include("plot_helper.jl")
 
 
 ## Single pendulun basic reward
-file_name = "csv/sp_AG_20230327.csv"
-fig_dir = "fig/sp_AG"
+file_name = "csv/sp_AJ_20230328.csv"
+fig_dir = "fig/sp_AJ"
 max_mean = 200
 
 ## Single pendulun basic reward 500 steps
