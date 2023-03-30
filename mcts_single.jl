@@ -148,10 +148,28 @@ function reward_tip_penalty(
     θ = env.state.y[3]
     l = 2 * env.data.length
     x_tip = x - l * sin(θ)
-    y_tip_lowest = l * cos(env.opts.theta_threshold_radians)
-    y_tip = l * cos(θ)
+    y_tip_largest_drop = l * (1 - cos(env.opts.theta_threshold_radians))
+    y_tip_drop = l * (1 - cos(θ))
     return 1.0 - x_tip_threshold * abs(x_tip) / env.opts.x_threshold -
-           y_tip_threshold * (1 - y_tip) / (1 - y_tip_lowest)
+           y_tip_threshold * y_tip_drop / y_tip_largest_drop
+end
+
+function reward_tip_penalty_use_exp(
+    env::InvertedPendulumEnv;
+    x_share = 0.0,
+    y_share = 1.0,
+    x_dispersion_factor = 0.25,
+    y_dispersion_factor = 0.25,
+)
+    x = env.state.y[1]
+    θ = env.state.y[3]
+    l = 2 * env.data.length
+    x_tip = x - l * sin(θ)
+    y_tip_largest_drop = l * (1 - cos(env.opts.theta_threshold_radians))
+    y_tip_drop = l * (1 - cos(θ))
+    x_reward = exp(-(abs(x_tip) / env.opts.x_threshold / x_dispersion_factor)^2)
+    y_reward = exp(-(y_tip_drop / y_tip_largest_drop / y_dispersion_factor)^2)
+    return x_share * x_reward + y_share * y_reward
 end
 
 function check_reward_here_and_there(reward_function)
