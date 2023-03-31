@@ -27,3 +27,5 @@ Manifest.toml
 /older
 /Fig
 /*.csv
+~syncthing*
+/*.sh
