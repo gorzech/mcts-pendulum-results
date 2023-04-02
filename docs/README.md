@@ -40,3 +40,5 @@ Results for the single pendulum.
 | [AK](Plots_fig_sp_AK.md) | exp(-(ytip/0.25ymax)^2)                       | 10          | 200         |
 | [AL](Plots_fig_sp_AL.md) | exp(-(ytip/0.1ymax)^2)                        | 10          | 200         |
 | [AM](Plots_fig_sp_AM.md) | exp(-(ytip/0.4ymax)^2)                        | 10          | 200         |
+| [AN](Plots_fig_sp_AN.md) | AA with more steps                            | 10          | **500**     |
+| [AO](Plots_fig_sp_AO.md) | AH with more steps                            | 10          | **500**     |
