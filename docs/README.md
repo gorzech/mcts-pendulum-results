@@ -44,3 +44,4 @@ Results for the single pendulum.
 | [AO](Plots_fig_sp_AO.md) | AH with more steps                            | 10          | **500**     |
 | [AP](Plots_fig_sp_AP.md) | 0.95exp(-(a/0.25at)^2)+0.05exp(-(x/0.25xt)^2) | 10          | **500**     |
 | [AQ](Plots_fig_sp_AQ.md) | AL with more steps                            | 10          | **500**     |
+| [AR](Plots_fig_sp_AR.md) | θ>2 ? exp(-((θ-2)/3)^2) : exp(-((θ-2)/5 ^2)   | 10          | 200         |
