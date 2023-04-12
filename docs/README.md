@@ -53,13 +53,13 @@ Now two sets of results are available - for the single and double pendulum!
 
 ## Results for the double pendulum {#double_pendulum}
 
-| Link                   | Reward                                        | Force \[N\] | Steps \[-\] |
-| ---------------------- | --------------------------------------------- | ----------- | ----------- |
-| [C](Plots_fig_dp_C.md) | Default.                                      | 20          | 200         |
-| [D](Plots_fig_dp_D.md) | Default.                                      | **25**      | 200         |
-| [E](Plots_fig_dp_E.md) | Angle penalty exp(-(a/0.25at) ^ 2)            | 20          | 200         |
-| [F](Plots_fig_dp_F.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2) | 20          | 200         |
-| [G](Plots_fig_dp_G.md) | exp(-(ytip/0.25ymax)^2)                       | 20          | 200         |
-| [H](Plots_fig_dp_H.md) | Angle penalty exp(-(a/0.1at) ^ 2)             | 20          | 200         |
-| [I](Plots_fig_dp_I.md) | Angle penalty exp(-(a/0.4at) ^ 2)             | 20          | 200         |
-| [J](Plots_fig_dp_J.md) | exp(-(ytip/0.1ymax)^2)                        | 20          | 200         |
+| Link                   | Reward                                        | Force \[N\] | Steps \[-\] | Partial? |
+| ---------------------- | --------------------------------------------- | ----------- | ----------- | -------- |
+| [C](Plots_fig_dp_C.md) | Default.                                      | 20          | 200         | Full     |
+| [D](Plots_fig_dp_D.md) | Default.                                      | **25**      | 200         | Full     |
+| [E](Plots_fig_dp_E.md) | Angle penalty exp(-(a/0.25at) ^ 2)            | 20          | 200         | Full     |
+| [F](Plots_fig_dp_F.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2) | 20          | 200         | Full     |
+| [G](Plots_fig_dp_G.md) | exp(-(ytip/0.25ymax)^2)                       | 20          | 200         | Full     |
+| [H](Plots_fig_dp_H.md) | Angle penalty exp(-(a/0.1at) ^ 2)             | 20          | 200         | Partial  |
+| [I](Plots_fig_dp_I.md) | Angle penalty exp(-(a/0.4at) ^ 2)             | 20          | 200         | Partial  |
+| [J](Plots_fig_dp_J.md) | exp(-(ytip/0.1ymax)^2)                        | 20          | 200         | Partial  |
