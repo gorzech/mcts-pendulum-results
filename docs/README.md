@@ -63,3 +63,4 @@ Now two sets of results are available - for the single and double pendulum!
 | [H](Plots_fig_dp_H.md) | Angle penalty exp(-(a/0.1at) ^ 2)             | 20          | 200         | Partial  |
 | [I](Plots_fig_dp_I.md) | Angle penalty exp(-(a/0.4at) ^ 2)             | 20          | 200         | Partial  |
 | [J](Plots_fig_dp_J.md) | exp(-(ytip/0.1ymax)^2)                        | 20          | 200         | Partial  |
+| [J](Plots_fig_dp_K.md) | exp(-(ytip/0.4ymax)^2)                        | 20          | 200         | Partial  |
