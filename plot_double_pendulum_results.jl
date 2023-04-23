@@ -2,8 +2,8 @@
 include("plot_helper.jl")
 
 ## Double pendulun basic reward
-file_name = "csv/dp_N_20230418.csv"
-fig_dir = "fig/dp_N"
+file_name = "csv/dp_I_20230411.csv"
+fig_dir = "fig/dp_IS"
 max_mean = 200
 
 ## Read all files

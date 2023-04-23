@@ -14,8 +14,8 @@ end
 # prefix = "sp_AR_"
 # file_name = "sp_AR_20230404"
 
-prefix = "dp_N_"
-file_name = "dp_N_20230418"
+prefix = "dp_I_"
+file_name = "dp_I_20230411"
 
 combine_to_single_csv_from_prefix(prefix, "csv/$file_name.csv")
 
