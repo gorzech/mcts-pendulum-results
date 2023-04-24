@@ -22,7 +22,11 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
     else
         plotlyjs()
     end
-    mkpath(Root_publish_directory * fig_dir)
+    if save_svg
+        mkpath(Root_publish_directory * fig_dir * "_svg")
+    else
+        mkpath(Root_publish_directory * fig_dir)
+    end
     setup_plots(upscale_resolution = 0.8)
     
     all_gamma = sort!(unique(stat_df[:, :gamma]))
