@@ -10,8 +10,9 @@ using CSV
 # subset!(df, :budget => ByRow(<(16_000)))
 
 const Root_publish_directory = "docs/"
+const Csv_files_directory = "csv/"
 
-function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200, use_gr = true)
+function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true, data_prefix = nothing)
     gdf = groupby(df, [:horizon, :budget, :exploration_param, :gamma])
     # Compute statistics
     stat_df = combine(gdf, :steps => mean, :steps => std)
@@ -22,17 +23,14 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
     else
         plotlyjs()
     end
-    if save_svg
-        mkpath(Root_publish_directory * fig_dir * "_svg")
-    else
-        mkpath(Root_publish_directory * fig_dir)
-    end
+    fig_dir = get_full_fig_dir(data_prefix, save_svg)
+    mkpath(fig_dir)
     setup_plots(upscale_resolution = 0.8)
     
     all_gamma = sort!(unique(stat_df[:, :gamma]))
     all_cp = sort!(unique(stat_df[:, :exploration_param]))
     png_file(g, cp, stat) = "$fig_dir/$(stat)_g_$(g)_cp_$cp.png"
-    svg_file(g, cp, stat) = "$(fig_dir)_svg/$(stat)_g_$(g)_cp_$cp.svg"
+    svg_file(g, cp, stat) = "$fig_dir/$(data_prefix)_$(stat)_g_$(g)_cp_$cp.svg"
     file_mean(g, cp) =
         if save_svg
             svg_file(g, cp, "mean")
@@ -47,8 +45,6 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
         end
     for g in all_gamma
         for t in all_cp
-            # g = all_gamma[end]
-            # t = all_temp[end]
             df_plot = subset(
                 stat_df,
                 [:gamma, :exploration_param] => (_g, _t) -> _g .== g .&& _t .== t,
@@ -89,7 +85,7 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
                 # linewidth=0,
                 # levels = 8
             )
-            Plots.savefig(plt1, Root_publish_directory * file_mean(g, t))
+            Plots.savefig(plt1, file_mean(g, t))
             v = if use_gr
                 reshape(df_plot[:, :steps_std], (length(h), length(b)))
             else
@@ -106,7 +102,7 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
                 xlabel = "Budget [-]",
                 ylabel = "Horizon [-]",
             )
-            Plots.savefig(plt2, Root_publish_directory * file_std(g, t))
+            Plots.savefig(plt2, file_std(g, t))
         end
     end
 
@@ -141,7 +137,7 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
         [n_start:min(n_total, n_start + n_split - 1) for n_start in 1:n_split:n_total]
     end
     if !save_svg
-        open(Root_publish_directory * replace("Plots_$fig_dir.md", "/" => "_"), "w") do f
+        open(Root_publish_directory * "Plots_fig_$data_prefix.md", "w") do f
             write(f, "# Results for the file $file_name \n\n")
             write(f, "Generated on ", Dates.format(now(), date_format), "\n\n")
             for cp in all_cp
@@ -156,10 +152,27 @@ function export_heatmap_plots(df; save_svg = true, fig_dir = ".", max_mean = 200
     println("Making plots complete.")
 end
 
+function get_full_fig_dir(data_prefix, save_svg)
+    if save_svg
+        Root_publish_directory * "svg_fig/" * data_prefix
+    else
+        Root_publish_directory * "fig/" * data_prefix
+    end
+end
+
 function setup_plots(; upscale_resolution)
     # fntsm = Plots.font("sans-serif", pointsize = round(14 * upscale))
     fntsm = Plots.font("Times", pointsize = round(14 * upscale_resolution))
     fntlg = Plots.font("Times", pointsize = round(14 * upscale_resolution))
     default(titlefont = fntlg, guidefont = fntlg, tickfont = fntsm, legendfont = fntsm)
     default(size = (600 * upscale_resolution, 400 * upscale_resolution)) #Plot canvas size
+end
+
+function read_csv_from_prefix(prefix)
+    rd = readdir(Csv_files_directory)
+    csv_files = filter(x -> contains(x, prefix * "_"), rd)
+    @assert length(csv_files) == 1 "After filtering only one file with prefix should be present!"
+
+    file_name = Csv_files_directory * csv_files[1]
+    df = CSV.read(file_name, DataFrame)
 end
