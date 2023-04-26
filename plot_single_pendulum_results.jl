@@ -6,7 +6,7 @@ csv_prefix = "sp_AA"
 max_mean = 200
 
 ## Single pendulun basic reward 500 steps
-csv_prefix = "sp_E"
+csv_prefix = "sp_AN"
 max_mean = 500
 
 ## Read all files
