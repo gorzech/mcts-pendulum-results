@@ -23,7 +23,7 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
     else
         plotlyjs()
     end
-    fig_dir = get_full_fig_dir(data_prefix, save_svg)
+    fig_dir = get_fig_dir(data_prefix, save_svg)
     mkpath(fig_dir)
     setup_plots(upscale_resolution = 0.8)
     
@@ -85,7 +85,7 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
                 # linewidth=0,
                 # levels = 8
             )
-            Plots.savefig(plt1, file_mean(g, t))
+            Plots.savefig(plt1, Root_publish_directory * file_mean(g, t))
             v = if use_gr
                 reshape(df_plot[:, :steps_std], (length(h), length(b)))
             else
@@ -102,7 +102,7 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
                 xlabel = "Budget [-]",
                 ylabel = "Horizon [-]",
             )
-            Plots.savefig(plt2, file_std(g, t))
+            Plots.savefig(plt2, Root_publish_directory * file_std(g, t))
         end
     end
 
@@ -152,11 +152,11 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
     println("Making plots complete.")
 end
 
-function get_full_fig_dir(data_prefix, save_svg)
+function get_fig_dir(data_prefix, save_svg)
     if save_svg
-        Root_publish_directory * "svg_fig/" * data_prefix
+        "svg_fig/" * data_prefix
     else
-        Root_publish_directory * "fig/" * data_prefix
+        "fig/" * data_prefix
     end
 end
 

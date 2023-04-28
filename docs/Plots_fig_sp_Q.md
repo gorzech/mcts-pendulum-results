@@ -1,6 +1,6 @@
 # Results for the file dp_Q_20230426 
 
-Generated on 2023-04-28 08:56:19
+Generated on 2023-04-28 10:22:31
 
 ---
 
@@ -8,23 +8,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=0$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_0.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_0.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_0.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_0.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_0.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_0.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_0.png) | ![](fig/sp_Q/mean_g_0.55_cp_0.png) | ![](fig/sp_Q/mean_g_0.6_cp_0.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_0.png) | ![](fig/sp_Q/std_g_0.55_cp_0.png) | ![](fig/sp_Q/std_g_0.6_cp_0.png) | 
 
 | $C_p=0$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_0.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_0.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_0.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_0.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_0.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_0.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_0.png) | ![](fig/sp_Q/mean_g_0.7_cp_0.png) | ![](fig/sp_Q/mean_g_0.75_cp_0.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_0.png) | ![](fig/sp_Q/std_g_0.7_cp_0.png) | ![](fig/sp_Q/std_g_0.75_cp_0.png) | 
 
 | $C_p=0$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_0.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_0.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_0.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_0.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_0.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_0.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_0.png) | ![](fig/sp_Q/mean_g_0.85_cp_0.png) | ![](fig/sp_Q/mean_g_0.9_cp_0.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_0.png) | ![](fig/sp_Q/std_g_0.85_cp_0.png) | ![](fig/sp_Q/std_g_0.9_cp_0.png) | 
 
 | $C_p=0$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_0.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_0.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_0.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_0.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_0.png) | ![](fig/sp_Q/mean_g_1.0_cp_0.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_0.png) | ![](fig/sp_Q/std_g_1.0_cp_0.png) | 
 
 ---
 
@@ -32,23 +32,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=2$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_2.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_2.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_2.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_2.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_2.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_2.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_2.png) | ![](fig/sp_Q/mean_g_0.55_cp_2.png) | ![](fig/sp_Q/mean_g_0.6_cp_2.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_2.png) | ![](fig/sp_Q/std_g_0.55_cp_2.png) | ![](fig/sp_Q/std_g_0.6_cp_2.png) | 
 
 | $C_p=2$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_2.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_2.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_2.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_2.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_2.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_2.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_2.png) | ![](fig/sp_Q/mean_g_0.7_cp_2.png) | ![](fig/sp_Q/mean_g_0.75_cp_2.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_2.png) | ![](fig/sp_Q/std_g_0.7_cp_2.png) | ![](fig/sp_Q/std_g_0.75_cp_2.png) | 
 
 | $C_p=2$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_2.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_2.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_2.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_2.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_2.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_2.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_2.png) | ![](fig/sp_Q/mean_g_0.85_cp_2.png) | ![](fig/sp_Q/mean_g_0.9_cp_2.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_2.png) | ![](fig/sp_Q/std_g_0.85_cp_2.png) | ![](fig/sp_Q/std_g_0.9_cp_2.png) | 
 
 | $C_p=2$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_2.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_2.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_2.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_2.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_2.png) | ![](fig/sp_Q/mean_g_1.0_cp_2.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_2.png) | ![](fig/sp_Q/std_g_1.0_cp_2.png) | 
 
 ---
 
@@ -56,23 +56,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=4$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_4.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_4.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_4.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_4.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_4.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_4.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_4.png) | ![](fig/sp_Q/mean_g_0.55_cp_4.png) | ![](fig/sp_Q/mean_g_0.6_cp_4.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_4.png) | ![](fig/sp_Q/std_g_0.55_cp_4.png) | ![](fig/sp_Q/std_g_0.6_cp_4.png) | 
 
 | $C_p=4$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_4.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_4.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_4.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_4.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_4.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_4.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_4.png) | ![](fig/sp_Q/mean_g_0.7_cp_4.png) | ![](fig/sp_Q/mean_g_0.75_cp_4.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_4.png) | ![](fig/sp_Q/std_g_0.7_cp_4.png) | ![](fig/sp_Q/std_g_0.75_cp_4.png) | 
 
 | $C_p=4$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_4.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_4.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_4.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_4.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_4.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_4.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_4.png) | ![](fig/sp_Q/mean_g_0.85_cp_4.png) | ![](fig/sp_Q/mean_g_0.9_cp_4.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_4.png) | ![](fig/sp_Q/std_g_0.85_cp_4.png) | ![](fig/sp_Q/std_g_0.9_cp_4.png) | 
 
 | $C_p=4$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_4.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_4.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_4.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_4.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_4.png) | ![](fig/sp_Q/mean_g_1.0_cp_4.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_4.png) | ![](fig/sp_Q/std_g_1.0_cp_4.png) | 
 
 ---
 
@@ -80,23 +80,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=8$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_8.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_8.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_8.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_8.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_8.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_8.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_8.png) | ![](fig/sp_Q/mean_g_0.55_cp_8.png) | ![](fig/sp_Q/mean_g_0.6_cp_8.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_8.png) | ![](fig/sp_Q/std_g_0.55_cp_8.png) | ![](fig/sp_Q/std_g_0.6_cp_8.png) | 
 
 | $C_p=8$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_8.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_8.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_8.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_8.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_8.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_8.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_8.png) | ![](fig/sp_Q/mean_g_0.7_cp_8.png) | ![](fig/sp_Q/mean_g_0.75_cp_8.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_8.png) | ![](fig/sp_Q/std_g_0.7_cp_8.png) | ![](fig/sp_Q/std_g_0.75_cp_8.png) | 
 
 | $C_p=8$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_8.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_8.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_8.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_8.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_8.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_8.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_8.png) | ![](fig/sp_Q/mean_g_0.85_cp_8.png) | ![](fig/sp_Q/mean_g_0.9_cp_8.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_8.png) | ![](fig/sp_Q/std_g_0.85_cp_8.png) | ![](fig/sp_Q/std_g_0.9_cp_8.png) | 
 
 | $C_p=8$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_8.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_8.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_8.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_8.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_8.png) | ![](fig/sp_Q/mean_g_1.0_cp_8.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_8.png) | ![](fig/sp_Q/std_g_1.0_cp_8.png) | 
 
 ---
 
@@ -104,23 +104,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=16$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_16.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_16.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_16.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_16.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_16.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_16.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_16.png) | ![](fig/sp_Q/mean_g_0.55_cp_16.png) | ![](fig/sp_Q/mean_g_0.6_cp_16.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_16.png) | ![](fig/sp_Q/std_g_0.55_cp_16.png) | ![](fig/sp_Q/std_g_0.6_cp_16.png) | 
 
 | $C_p=16$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_16.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_16.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_16.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_16.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_16.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_16.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_16.png) | ![](fig/sp_Q/mean_g_0.7_cp_16.png) | ![](fig/sp_Q/mean_g_0.75_cp_16.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_16.png) | ![](fig/sp_Q/std_g_0.7_cp_16.png) | ![](fig/sp_Q/std_g_0.75_cp_16.png) | 
 
 | $C_p=16$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_16.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_16.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_16.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_16.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_16.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_16.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_16.png) | ![](fig/sp_Q/mean_g_0.85_cp_16.png) | ![](fig/sp_Q/mean_g_0.9_cp_16.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_16.png) | ![](fig/sp_Q/std_g_0.85_cp_16.png) | ![](fig/sp_Q/std_g_0.9_cp_16.png) | 
 
 | $C_p=16$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_16.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_16.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_16.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_16.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_16.png) | ![](fig/sp_Q/mean_g_1.0_cp_16.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_16.png) | ![](fig/sp_Q/std_g_1.0_cp_16.png) | 
 
 ---
 
@@ -128,23 +128,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=32$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_32.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_32.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_32.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_32.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_32.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_32.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_32.png) | ![](fig/sp_Q/mean_g_0.55_cp_32.png) | ![](fig/sp_Q/mean_g_0.6_cp_32.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_32.png) | ![](fig/sp_Q/std_g_0.55_cp_32.png) | ![](fig/sp_Q/std_g_0.6_cp_32.png) | 
 
 | $C_p=32$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_32.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_32.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_32.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_32.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_32.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_32.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_32.png) | ![](fig/sp_Q/mean_g_0.7_cp_32.png) | ![](fig/sp_Q/mean_g_0.75_cp_32.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_32.png) | ![](fig/sp_Q/std_g_0.7_cp_32.png) | ![](fig/sp_Q/std_g_0.75_cp_32.png) | 
 
 | $C_p=32$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_32.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_32.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_32.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_32.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_32.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_32.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_32.png) | ![](fig/sp_Q/mean_g_0.85_cp_32.png) | ![](fig/sp_Q/mean_g_0.9_cp_32.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_32.png) | ![](fig/sp_Q/std_g_0.85_cp_32.png) | ![](fig/sp_Q/std_g_0.9_cp_32.png) | 
 
 | $C_p=32$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_32.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_32.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_32.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_32.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_32.png) | ![](fig/sp_Q/mean_g_1.0_cp_32.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_32.png) | ![](fig/sp_Q/std_g_1.0_cp_32.png) | 
 
 ---
 
@@ -152,23 +152,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=64$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_64.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_64.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_64.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_64.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_64.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_64.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_64.png) | ![](fig/sp_Q/mean_g_0.55_cp_64.png) | ![](fig/sp_Q/mean_g_0.6_cp_64.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_64.png) | ![](fig/sp_Q/std_g_0.55_cp_64.png) | ![](fig/sp_Q/std_g_0.6_cp_64.png) | 
 
 | $C_p=64$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_64.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_64.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_64.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_64.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_64.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_64.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_64.png) | ![](fig/sp_Q/mean_g_0.7_cp_64.png) | ![](fig/sp_Q/mean_g_0.75_cp_64.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_64.png) | ![](fig/sp_Q/std_g_0.7_cp_64.png) | ![](fig/sp_Q/std_g_0.75_cp_64.png) | 
 
 | $C_p=64$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_64.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_64.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_64.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_64.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_64.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_64.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_64.png) | ![](fig/sp_Q/mean_g_0.85_cp_64.png) | ![](fig/sp_Q/mean_g_0.9_cp_64.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_64.png) | ![](fig/sp_Q/std_g_0.85_cp_64.png) | ![](fig/sp_Q/std_g_0.9_cp_64.png) | 
 
 | $C_p=64$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_64.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_64.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_64.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_64.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_64.png) | ![](fig/sp_Q/mean_g_1.0_cp_64.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_64.png) | ![](fig/sp_Q/std_g_1.0_cp_64.png) | 
 
 ---
 
@@ -176,23 +176,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=128$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_128.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_128.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_128.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_128.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_128.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_128.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_128.png) | ![](fig/sp_Q/mean_g_0.55_cp_128.png) | ![](fig/sp_Q/mean_g_0.6_cp_128.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_128.png) | ![](fig/sp_Q/std_g_0.55_cp_128.png) | ![](fig/sp_Q/std_g_0.6_cp_128.png) | 
 
 | $C_p=128$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_128.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_128.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_128.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_128.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_128.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_128.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_128.png) | ![](fig/sp_Q/mean_g_0.7_cp_128.png) | ![](fig/sp_Q/mean_g_0.75_cp_128.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_128.png) | ![](fig/sp_Q/std_g_0.7_cp_128.png) | ![](fig/sp_Q/std_g_0.75_cp_128.png) | 
 
 | $C_p=128$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_128.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_128.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_128.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_128.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_128.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_128.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_128.png) | ![](fig/sp_Q/mean_g_0.85_cp_128.png) | ![](fig/sp_Q/mean_g_0.9_cp_128.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_128.png) | ![](fig/sp_Q/std_g_0.85_cp_128.png) | ![](fig/sp_Q/std_g_0.9_cp_128.png) | 
 
 | $C_p=128$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_128.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_128.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_128.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_128.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_128.png) | ![](fig/sp_Q/mean_g_1.0_cp_128.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_128.png) | ![](fig/sp_Q/std_g_1.0_cp_128.png) | 
 
 ---
 
@@ -200,23 +200,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=256$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_256.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_256.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_256.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_256.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_256.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_256.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_256.png) | ![](fig/sp_Q/mean_g_0.55_cp_256.png) | ![](fig/sp_Q/mean_g_0.6_cp_256.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_256.png) | ![](fig/sp_Q/std_g_0.55_cp_256.png) | ![](fig/sp_Q/std_g_0.6_cp_256.png) | 
 
 | $C_p=256$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_256.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_256.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_256.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_256.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_256.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_256.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_256.png) | ![](fig/sp_Q/mean_g_0.7_cp_256.png) | ![](fig/sp_Q/mean_g_0.75_cp_256.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_256.png) | ![](fig/sp_Q/std_g_0.7_cp_256.png) | ![](fig/sp_Q/std_g_0.75_cp_256.png) | 
 
 | $C_p=256$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_256.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_256.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_256.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_256.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_256.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_256.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_256.png) | ![](fig/sp_Q/mean_g_0.85_cp_256.png) | ![](fig/sp_Q/mean_g_0.9_cp_256.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_256.png) | ![](fig/sp_Q/std_g_0.85_cp_256.png) | ![](fig/sp_Q/std_g_0.9_cp_256.png) | 
 
 | $C_p=256$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_256.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_256.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_256.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_256.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_256.png) | ![](fig/sp_Q/mean_g_1.0_cp_256.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_256.png) | ![](fig/sp_Q/std_g_1.0_cp_256.png) | 
 
 ---
 
@@ -224,23 +224,23 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=512$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_512.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_512.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_512.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_512.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_512.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_512.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_512.png) | ![](fig/sp_Q/mean_g_0.55_cp_512.png) | ![](fig/sp_Q/mean_g_0.6_cp_512.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_512.png) | ![](fig/sp_Q/std_g_0.55_cp_512.png) | ![](fig/sp_Q/std_g_0.6_cp_512.png) | 
 
 | $C_p=512$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_512.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_512.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_512.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_512.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_512.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_512.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_512.png) | ![](fig/sp_Q/mean_g_0.7_cp_512.png) | ![](fig/sp_Q/mean_g_0.75_cp_512.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_512.png) | ![](fig/sp_Q/std_g_0.7_cp_512.png) | ![](fig/sp_Q/std_g_0.75_cp_512.png) | 
 
 | $C_p=512$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_512.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_512.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_512.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_512.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_512.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_512.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_512.png) | ![](fig/sp_Q/mean_g_0.85_cp_512.png) | ![](fig/sp_Q/mean_g_0.9_cp_512.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_512.png) | ![](fig/sp_Q/std_g_0.85_cp_512.png) | ![](fig/sp_Q/std_g_0.9_cp_512.png) | 
 
 | $C_p=512$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_512.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_512.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_512.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_512.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_512.png) | ![](fig/sp_Q/mean_g_1.0_cp_512.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_512.png) | ![](fig/sp_Q/std_g_1.0_cp_512.png) | 
 
 ---
 
@@ -248,21 +248,21 @@ Generated on 2023-04-28 08:56:19
 
 | $C_p=1024$| $\gamma = 0.5$| $\gamma = 0.55$| $\gamma = 0.6$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.5_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_0.55_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_0.6_cp_1024.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.5_cp_1024.png) | ![](docs/fig/sp_Q/std_g_0.55_cp_1024.png) | ![](docs/fig/sp_Q/std_g_0.6_cp_1024.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.5_cp_1024.png) | ![](fig/sp_Q/mean_g_0.55_cp_1024.png) | ![](fig/sp_Q/mean_g_0.6_cp_1024.png) | 
+| Std | ![](fig/sp_Q/std_g_0.5_cp_1024.png) | ![](fig/sp_Q/std_g_0.55_cp_1024.png) | ![](fig/sp_Q/std_g_0.6_cp_1024.png) | 
 
 | $C_p=1024$| $\gamma = 0.65$| $\gamma = 0.7$| $\gamma = 0.75$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.65_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_0.7_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_0.75_cp_1024.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.65_cp_1024.png) | ![](docs/fig/sp_Q/std_g_0.7_cp_1024.png) | ![](docs/fig/sp_Q/std_g_0.75_cp_1024.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.65_cp_1024.png) | ![](fig/sp_Q/mean_g_0.7_cp_1024.png) | ![](fig/sp_Q/mean_g_0.75_cp_1024.png) | 
+| Std | ![](fig/sp_Q/std_g_0.65_cp_1024.png) | ![](fig/sp_Q/std_g_0.7_cp_1024.png) | ![](fig/sp_Q/std_g_0.75_cp_1024.png) | 
 
 | $C_p=1024$| $\gamma = 0.8$| $\gamma = 0.85$| $\gamma = 0.9$| 
 | --- | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.8_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_0.85_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_0.9_cp_1024.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.8_cp_1024.png) | ![](docs/fig/sp_Q/std_g_0.85_cp_1024.png) | ![](docs/fig/sp_Q/std_g_0.9_cp_1024.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.8_cp_1024.png) | ![](fig/sp_Q/mean_g_0.85_cp_1024.png) | ![](fig/sp_Q/mean_g_0.9_cp_1024.png) | 
+| Std | ![](fig/sp_Q/std_g_0.8_cp_1024.png) | ![](fig/sp_Q/std_g_0.85_cp_1024.png) | ![](fig/sp_Q/std_g_0.9_cp_1024.png) | 
 
 | $C_p=1024$| $\gamma = 0.95$| $\gamma = 1.0$| 
 | --- | --- | --- | 
-| Mean | ![](docs/fig/sp_Q/mean_g_0.95_cp_1024.png) | ![](docs/fig/sp_Q/mean_g_1.0_cp_1024.png) | 
-| Std | ![](docs/fig/sp_Q/std_g_0.95_cp_1024.png) | ![](docs/fig/sp_Q/std_g_1.0_cp_1024.png) | 
+| Mean | ![](fig/sp_Q/mean_g_0.95_cp_1024.png) | ![](fig/sp_Q/mean_g_1.0_cp_1024.png) | 
+| Std | ![](fig/sp_Q/std_g_0.95_cp_1024.png) | ![](fig/sp_Q/std_g_1.0_cp_1024.png) | 
 
