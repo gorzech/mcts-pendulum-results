@@ -2,7 +2,7 @@
 include("plot_helper.jl")
 
 ## Double pendulun basic reward
-csv_prefix = "sp_L"
+csv_prefix = "dp_Q"
 max_mean = 200
 
 ## Read all files
