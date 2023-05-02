@@ -110,9 +110,9 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
     date_format = "yyyy-mm-dd HH:MM:SS"
     function write_table(f, cp, all_gamma)
         # Write header
-        write(f, "| \$C_p=$(cp)\$")
+        write(f, "| Cₚ = $(cp) ")
         for g in all_gamma
-            write(f, "| \$\\gamma = $(g)\$")
+            write(f, "| γ = $(g) ")
         end
         write(f, "| \n")
         # Complete table header
