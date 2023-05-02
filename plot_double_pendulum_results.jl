@@ -5,6 +5,10 @@ include("plot_helper.jl")
 csv_prefix = "dp_S"
 max_mean = 200
 
+## Double pendulun 500 steps
+csv_prefix = "dp_U"
+max_mean = 500
+
 ## Read all files
 df = read_csv_from_prefix(csv_prefix)
 # subset!(df, :gamma => ByRow(<(1.0))) # Get results for specific gamma
