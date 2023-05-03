@@ -76,3 +76,6 @@ A default parameter range is γ = 0.7:0.05:1.0 and Cₚ = [0, 2, 4, 8, 16, 32]
 | [S](Plots_fig_dp_S.md) | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.4xt)^2)             | 20          | 200         |                                         |
 | [T](Plots_fig_dp_T.md) | C with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
 | [U](Plots_fig_dp_U.md) | N with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
+| [V](Plots_fig_dp_V.md) | Q with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
+| [W](Plots_fig_dp_W.md) | R with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
+| [X](Plots_fig_dp_X.md) | S with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
