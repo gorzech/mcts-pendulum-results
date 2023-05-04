@@ -30,3 +30,6 @@ Manifest.toml
 /*.csv
 ~syncthing*
 /*.sh
+
+# Ignore text files
+latex/
