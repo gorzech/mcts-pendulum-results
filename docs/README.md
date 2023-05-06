@@ -55,29 +55,29 @@ Now two sets of results are available - for the single and double pendulum!
 
 A default parameter range is γ = 0.7:0.05:1.0 and Cₚ = [0, 2, 4, 8, 16, 32]
 
-| Link                   | Reward                                                  | Force \[N\] | Steps \[-\] | Notes                                   |
-| ---------------------- | ------------------------------------------------------- | ----------- | ----------- | --------------------------------------- |
-| [C](Plots_fig_dp_C.md) | Default.                                                | 20          | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256] |
-| [D](Plots_fig_dp_D.md) | Default.                                                | **25**      | 200         |                                         |
-| [E](Plots_fig_dp_E.md) | Angle penalty exp(-(a/0.25at) ^ 2)                      | 20          | 200         |                                         |
-| [F](Plots_fig_dp_F.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2)           | 20          | 200         |                                         |
-| [G](Plots_fig_dp_G.md) | exp(-(ytip/0.25ymax)^2)                                 | 20          | 200         |                                         |
-| [H](Plots_fig_dp_H.md) | Angle penalty exp(-(a/0.1at) ^ 2)                       | 20          | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256] |
-| [I](Plots_fig_dp_I.md) | Angle penalty exp(-(a/0.4at) ^ 2)                       | 20          | 200         |                                         |
-| [J](Plots_fig_dp_J.md) | exp(-(ytip/0.1ymax)^2)                                  | 20          | 200         |                                         |
-| [K](Plots_fig_dp_K.md) | exp(-(ytip/0.4ymax)^2)                                  | 20          | 200         |                                         |
-| [L](Plots_fig_dp_L.md) | Angle penalty exp(-(a/0.55at) ^ 2)                      | 20          | 200         |                                         |
-| [M](Plots_fig_dp_M.md) | 0.95exp(-(ytip/0.25ymax)^2)+0.05exp(-(xtip/0.25xmax)^2) | 20          | 200         |                                         |
-| [N](Plots_fig_dp_N.md) | Angle penalty exp(-(a/0.7at) ^ 2)                       | 20          | 200         |                                         |
-| [O](Plots_fig_dp_O.md) | 0.8exp(-(ytip/0.25ymax)^2)+0.2exp(-(xtip/0.25xmax)^2)   | 20          | 200         |                                         |
-| [P](Plots_fig_dp_P.md) | Angle penalty exp(-(a/0.85at) ^ 2)                      | 20          | 200         |                                         |
-| [Q](Plots_fig_dp_Q.md) | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.7xt)^2)             | 20          | 200         |                                         |
-| [R](Plots_fig_dp_R.md) | 0.7exp(-(a/0.7at)^2)+0.3exp(-(x/0.7xt)^2)               | 20          | 200         |                                         |
-| [S](Plots_fig_dp_S.md) | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.4xt)^2)             | 20          | 200         |                                         |
-| [T](Plots_fig_dp_T.md) | C with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
-| [U](Plots_fig_dp_U.md) | N with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
-| [V](Plots_fig_dp_V.md) | Q with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
-| [W](Plots_fig_dp_W.md) | R with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
-| [X](Plots_fig_dp_X.md) | S with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
-| [Y](Plots_fig_dp_Y.md) | G with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
-| [Z](Plots_fig_dp_Z.md) | O with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]         |
+| Link                   | Reward                                                  | Force \[N\] | Steps \[-\] | Notes                                         |
+| ---------------------- | ------------------------------------------------------- | ----------- | ----------- | --------------------------------------------- |
+| [C](Plots_fig_dp_C.md) | Default.                                                | 20          | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256]       |
+| [D](Plots_fig_dp_D.md) | Default.                                                | **25**      | 200         |                                               |
+| [E](Plots_fig_dp_E.md) | Angle penalty exp(-(a/0.25at) ^ 2)                      | 20          | 200         |                                               |
+| [F](Plots_fig_dp_F.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2)           | 20          | 200         |                                               |
+| [G](Plots_fig_dp_G.md) | exp(-(ytip/0.25ymax)^2)                                 | 20          | 200         |                                               |
+| [H](Plots_fig_dp_H.md) | Angle penalty exp(-(a/0.1at) ^ 2)                       | 20          | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256]       |
+| [I](Plots_fig_dp_I.md) | Angle penalty exp(-(a/0.4at) ^ 2)                       | 20          | 200         |                                               |
+| [J](Plots_fig_dp_J.md) | exp(-(ytip/0.1ymax)^2)                                  | 20          | 200         |                                               |
+| [K](Plots_fig_dp_K.md) | exp(-(ytip/0.4ymax)^2)                                  | 20          | 200         |                                               |
+| [L](Plots_fig_dp_L.md) | Angle penalty exp(-(a/0.55at) ^ 2)                      | 20          | 200         |                                               |
+| [M](Plots_fig_dp_M.md) | 0.95exp(-(ytip/0.25ymax)^2)+0.05exp(-(xtip/0.25xmax)^2) | 20          | 200         |                                               |
+| [N](Plots_fig_dp_N.md) | Angle penalty exp(-(a/0.7at) ^ 2)                       | 20          | 200         |                                               |
+| [O](Plots_fig_dp_O.md) | 0.8exp(-(ytip/0.25ymax)^2)+0.2exp(-(xtip/0.25xmax)^2)   | 20          | 200         |                                               |
+| [P](Plots_fig_dp_P.md) | Angle penalty exp(-(a/0.85at) ^ 2)                      | 20          | 200         |                                               |
+| [Q](Plots_fig_dp_Q.md) | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.7xt)^2)             | 20          | 200         |                                               |
+| [R](Plots_fig_dp_R.md) | 0.7exp(-(a/0.7at)^2)+0.3exp(-(x/0.7xt)^2)               | 20          | 200         |                                               |
+| [S](Plots_fig_dp_S.md) | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.4xt)^2)             | 20          | 200         |                                               |
+| [T](Plots_fig_dp_T.md) | C with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
+| [U](Plots_fig_dp_U.md) | N with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
+| [V](Plots_fig_dp_V.md) | Q with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
+| [W](Plots_fig_dp_W.md) | R with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
+| [X](Plots_fig_dp_X.md) | S with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
+| [Y](Plots_fig_dp_Y.md) | G with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64, 128, 256] |
+| [Z](Plots_fig_dp_Z.md) | O with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
