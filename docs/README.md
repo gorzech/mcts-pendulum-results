@@ -55,14 +55,17 @@ Now two sets of results are available - for the single and double pendulum!
 
 A default parameter range is γ = 0.7:0.05:1.0 and Cₚ = [0, 2, 4, 8, 16, 32]
 
+The full test case (as in C) has a few more exploration parameters included. Therefore, for the full range, we have:
+γ = 0.7:0.05:1.0 and Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256]
+
 | Link                     | Reward                                                  | Force \[N\] | Steps \[-\] | Notes                                         |
 | ------------------------ | ------------------------------------------------------- | ----------- | ----------- | --------------------------------------------- |
-| [C](Plots_fig_dp_C.md)   | Default.                                                | 20          | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256]       |
-| [D](Plots_fig_dp_D.md)   | Default.                                                | **25**      | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256]       |
-| [E](Plots_fig_dp_E.md)   | Angle penalty exp(-(a/0.25at) ^ 2)                      | 20          | 200         |                                               |
+| [C](Plots_fig_dp_C.md)   | Default.                                                | 20          | 200         | Full range                                    |
+| [D](Plots_fig_dp_D.md)   | Default.                                                | **25**      | 200         | Full range                                    |
+| [E](Plots_fig_dp_E.md)   | Angle penalty exp(-(a/0.25at) ^ 2)                      | 20          | 200         | Full range                                    |
 | [F](Plots_fig_dp_F.md)   | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2)           | 20          | 200         |                                               |
 | [G](Plots_fig_dp_G.md)   | exp(-(ytip/0.25ymax)^2)                                 | 20          | 200         |                                               |
-| [H](Plots_fig_dp_H.md)   | Angle penalty exp(-(a/0.1at) ^ 2)                       | 20          | 200         | Cₚ = [0, 2, 4, 8, 16, 32, 64, 128, 256]       |
+| [H](Plots_fig_dp_H.md)   | Angle penalty exp(-(a/0.1at) ^ 2)                       | 20          | 200         | Full range                                    |
 | [I](Plots_fig_dp_I.md)   | Angle penalty exp(-(a/0.4at) ^ 2)                       | 20          | 200         |                                               |
 | [J](Plots_fig_dp_J.md)   | exp(-(ytip/0.1ymax)^2)                                  | 20          | 200         |                                               |
 | [K](Plots_fig_dp_K.md)   | exp(-(ytip/0.4ymax)^2)                                  | 20          | 200         |                                               |
