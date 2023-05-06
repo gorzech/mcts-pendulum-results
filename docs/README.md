@@ -66,7 +66,7 @@ The full test case (as in C) has a few more exploration parameters included. The
 | [F](Plots_fig_dp_F.md)   | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2)           | 20          | 200         | Full range                                    |
 | [G](Plots_fig_dp_G.md)   | exp(-(ytip/0.25ymax)^2)                                 | 20          | 200         |                                               |
 | [H](Plots_fig_dp_H.md)   | Angle penalty exp(-(a/0.1at) ^ 2)                       | 20          | 200         | Full range                                    |
-| [I](Plots_fig_dp_I.md)   | Angle penalty exp(-(a/0.4at) ^ 2)                       | 20          | 200         |                                               |
+| [I](Plots_fig_dp_I.md)   | Angle penalty exp(-(a/0.4at) ^ 2)                       | 20          | 200         | Full range                                    |
 | [J](Plots_fig_dp_J.md)   | exp(-(ytip/0.1ymax)^2)                                  | 20          | 200         |                                               |
 | [K](Plots_fig_dp_K.md)   | exp(-(ytip/0.4ymax)^2)                                  | 20          | 200         |                                               |
 | [L](Plots_fig_dp_L.md)   | Angle penalty exp(-(a/0.55at) ^ 2)                      | 20          | 200         |                                               |
