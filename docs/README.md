@@ -64,11 +64,11 @@ The full test case (as in C) has a few more exploration parameters included. The
 | [D](Plots_fig_dp_D.md)   | Default.                                                | **25**      | 200         | Full range                                    |
 | [E](Plots_fig_dp_E.md)   | Angle penalty exp(-(a/0.25at) ^ 2)                      | 20          | 200         | Full range                                    |
 | [F](Plots_fig_dp_F.md)   | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2)           | 20          | 200         | Full range                                    |
-| [G](Plots_fig_dp_G.md)   | exp(-(ytip/0.25ymax)^2)                                 | 20          | 200         |                                               |
+| [G](Plots_fig_dp_G.md)   | exp(-(ytip/0.25ymax)^2)                                 | 20          | 200         | Full range                                    |
 | [H](Plots_fig_dp_H.md)   | Angle penalty exp(-(a/0.1at) ^ 2)                       | 20          | 200         | Full range                                    |
 | [I](Plots_fig_dp_I.md)   | Angle penalty exp(-(a/0.4at) ^ 2)                       | 20          | 200         | Full range                                    |
-| [J](Plots_fig_dp_J.md)   | exp(-(ytip/0.1ymax)^2)                                  | 20          | 200         |                                               |
-| [K](Plots_fig_dp_K.md)   | exp(-(ytip/0.4ymax)^2)                                  | 20          | 200         |                                               |
+| [J](Plots_fig_dp_J.md)   | exp(-(ytip/0.1ymax)^2)                                  | 20          | 200         | Full range                                    |
+| [K](Plots_fig_dp_K.md)   | exp(-(ytip/0.4ymax)^2)                                  | 20          | 200         | Full range                                    |
 | [L](Plots_fig_dp_L.md)   | Angle penalty exp(-(a/0.55at) ^ 2)                      | 20          | 200         |                                               |
 | [M](Plots_fig_dp_M.md)   | 0.95exp(-(ytip/0.25ymax)^2)+0.05exp(-(xtip/0.25xmax)^2) | 20          | 200         |                                               |
 | [N](Plots_fig_dp_N.md)   | Angle penalty exp(-(a/0.7at) ^ 2)                       | 20          | 200         |                                               |
@@ -84,4 +84,4 @@ The full test case (as in C) has a few more exploration parameters included. The
 | [X](Plots_fig_dp_X.md)   | S with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
 | [Y](Plots_fig_dp_Y.md)   | G with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64, 128, 256] |
 | [Z](Plots_fig_dp_Z.md)   | O with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
-| [AA](Plots_fig_dp_AA.md) | M with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
+| [AA](Plots_fig_dp_AA.md) | M with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64, 128, 256] |
