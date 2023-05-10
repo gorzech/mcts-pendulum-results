@@ -72,10 +72,10 @@ The full test case (as in C) has a few more exploration parameters included. The
 | [L](Plots_fig_dp_L.md)   | Angle penalty exp(-(a/0.55at) ^ 2)                      | 20          | 200         | Full range                                    |
 | [M](Plots_fig_dp_M.md)   | 0.95exp(-(ytip/0.25ymax)^2)+0.05exp(-(xtip/0.25xmax)^2) | 20          | 200         | Full range                                    |
 | [N](Plots_fig_dp_N.md)   | Angle penalty exp(-(a/0.7at) ^ 2)                       | 20          | 200         | Full range                                    |
-| [O](Plots_fig_dp_O.md)   | 0.8exp(-(ytip/0.25ymax)^2)+0.2exp(-(xtip/0.25xmax)^2)   | 20          | 200         |                                               |
-| [P](Plots_fig_dp_P.md)   | Angle penalty exp(-(a/0.85at) ^ 2)                      | 20          | 200         |                                               |
-| [Q](Plots_fig_dp_Q.md)   | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.7xt)^2)             | 20          | 200         |                                               |
-| [R](Plots_fig_dp_R.md)   | 0.7exp(-(a/0.7at)^2)+0.3exp(-(x/0.7xt)^2)               | 20          | 200         |                                               |
+| [O](Plots_fig_dp_O.md)   | 0.8exp(-(ytip/0.25ymax)^2)+0.2exp(-(xtip/0.25xmax)^2)   | 20          | 200         | Full range                                    |
+| [P](Plots_fig_dp_P.md)   | Angle penalty exp(-(a/0.85at) ^ 2)                      | 20          | 200         | Full range                                    |
+| [Q](Plots_fig_dp_Q.md)   | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.7xt)^2)             | 20          | 200         | Full range                                    |
+| [R](Plots_fig_dp_R.md)   | 0.7exp(-(a/0.7at)^2)+0.3exp(-(x/0.7xt)^2)               | 20          | 200         | Full range                                    |
 | [S](Plots_fig_dp_S.md)   | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.4xt)^2)             | 20          | 200         |                                               |
 | [T](Plots_fig_dp_T.md)   | C with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64, 128, 256] |
 | [U](Plots_fig_dp_U.md)   | N with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32]               |
