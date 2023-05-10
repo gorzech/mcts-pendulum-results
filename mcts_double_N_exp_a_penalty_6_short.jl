@@ -9,4 +9,6 @@ Environments.reward(env::InvertedDoublePendulumEnv) = reward_cart_angle_use_exp(
     angle_dispersion_factor = 0.7,
 )
 
-execute_batch_double_args(ARGS; file_name = file_name)
+dp_batch = DpBatch(exploration_param = [64, 128, 256])
+
+execute_batch_double_args(ARGS; file_name=file_name, dp_batch = dp_batch)
