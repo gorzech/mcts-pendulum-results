@@ -137,7 +137,7 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
         [n_start:min(n_total, n_start + n_split - 1) for n_start in 1:n_split:n_total]
     end
     if !save_svg
-        csv_file = get_csv_filename_from_prefix(prefix)
+        csv_file = get_csv_filename_from_prefix(data_prefix)
         open(Root_publish_directory * "Plots_fig_$data_prefix.md", "w") do f
             write(f, "# Results for the file $csv_file \n\n")
             write(f, "Generated on ", Dates.format(now(), date_format), "\n\n")
