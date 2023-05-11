@@ -137,8 +137,9 @@ function export_heatmap_plots(df; save_svg = true, max_mean = 200, use_gr = true
         [n_start:min(n_total, n_start + n_split - 1) for n_start in 1:n_split:n_total]
     end
     if !save_svg
+        csv_file = get_csv_filename_from_prefix(prefix)
         open(Root_publish_directory * "Plots_fig_$data_prefix.md", "w") do f
-            write(f, "# Results for the file $file_name \n\n")
+            write(f, "# Results for the file $csv_file \n\n")
             write(f, "Generated on ", Dates.format(now(), date_format), "\n\n")
             for cp in all_cp
                 write(f, "---\n\n**Exploration parameter = $cp**\n\n")
@@ -169,10 +170,14 @@ function setup_plots(; upscale_resolution)
 end
 
 function read_csv_from_prefix(prefix)
+    csv_file = get_csv_filename_from_prefix(prefix)
+    file_name = Csv_files_directory * csv_file
+    CSV.read(file_name, DataFrame)
+end
+
+function get_csv_filename_from_prefix(prefix)
     rd = readdir(Csv_files_directory)
     csv_files = filter(x -> contains(x, prefix * "_"), rd)
     @assert length(csv_files) == 1 "After filtering only one file with prefix should be present!"
-
-    file_name = Csv_files_directory * csv_files[1]
-    df = CSV.read(file_name, DataFrame)
+    return csv_files[1]
 end
