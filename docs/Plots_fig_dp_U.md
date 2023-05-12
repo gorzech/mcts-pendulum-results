@@ -1,6 +1,6 @@
-# Results for the file dp_U_20230501 
+# Results for the file dp_U_20230501.csv 
 
-Generated on 2023-05-11 14:20:49
+Generated on 2023-05-12 09:25:38
 
 ---
 
@@ -37,4 +37,13 @@ Generated on 2023-05-11 14:20:49
 | --- | --- | --- | --- | 
 | Mean | ![](fig/dp_U/mean_g_0.9_cp_128.png) | ![](fig/dp_U/mean_g_0.95_cp_128.png) | ![](fig/dp_U/mean_g_1.0_cp_128.png) | 
 | Std | ![](fig/dp_U/std_g_0.9_cp_128.png) | ![](fig/dp_U/std_g_0.95_cp_128.png) | ![](fig/dp_U/std_g_1.0_cp_128.png) | 
+
+---
+
+**Exploration parameter = 256**
+
+| Cₚ = 256 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_U/mean_g_0.9_cp_256.png) | ![](fig/dp_U/mean_g_0.95_cp_256.png) | ![](fig/dp_U/mean_g_1.0_cp_256.png) | 
+| Std | ![](fig/dp_U/std_g_0.9_cp_256.png) | ![](fig/dp_U/std_g_0.95_cp_256.png) | ![](fig/dp_U/std_g_1.0_cp_256.png) | 
 
