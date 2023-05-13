@@ -1,6 +1,15 @@
 # Results for the file dp_U_20230501.csv 
 
-Generated on 2023-05-12 09:25:38
+Generated on 2023-05-13 18:25:56
+
+---
+
+**Exploration parameter = 8**
+
+| Cₚ = 8 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_U/mean_g_0.9_cp_8.png) | ![](fig/dp_U/mean_g_0.95_cp_8.png) | ![](fig/dp_U/mean_g_1.0_cp_8.png) | 
+| Std | ![](fig/dp_U/std_g_0.9_cp_8.png) | ![](fig/dp_U/std_g_0.95_cp_8.png) | ![](fig/dp_U/std_g_1.0_cp_8.png) | 
 
 ---
 
