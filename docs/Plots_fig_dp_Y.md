@@ -1,6 +1,33 @@
 # Results for the file dp_Y_20230503.csv 
 
-Generated on 2023-05-13 18:26:03
+Generated on 2023-05-15 20:06:10
+
+---
+
+**Exploration parameter = 0**
+
+| Cₚ = 0 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_Y/mean_g_0.9_cp_0.png) | ![](fig/dp_Y/mean_g_0.95_cp_0.png) | ![](fig/dp_Y/mean_g_1.0_cp_0.png) | 
+| Std | ![](fig/dp_Y/std_g_0.9_cp_0.png) | ![](fig/dp_Y/std_g_0.95_cp_0.png) | ![](fig/dp_Y/std_g_1.0_cp_0.png) | 
+
+---
+
+**Exploration parameter = 2**
+
+| Cₚ = 2 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_Y/mean_g_0.9_cp_2.png) | ![](fig/dp_Y/mean_g_0.95_cp_2.png) | ![](fig/dp_Y/mean_g_1.0_cp_2.png) | 
+| Std | ![](fig/dp_Y/std_g_0.9_cp_2.png) | ![](fig/dp_Y/std_g_0.95_cp_2.png) | ![](fig/dp_Y/std_g_1.0_cp_2.png) | 
+
+---
+
+**Exploration parameter = 4**
+
+| Cₚ = 4 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_Y/mean_g_0.9_cp_4.png) | ![](fig/dp_Y/mean_g_0.95_cp_4.png) | ![](fig/dp_Y/mean_g_1.0_cp_4.png) | 
+| Std | ![](fig/dp_Y/std_g_0.9_cp_4.png) | ![](fig/dp_Y/std_g_0.95_cp_4.png) | ![](fig/dp_Y/std_g_1.0_cp_4.png) | 
 
 ---
 
