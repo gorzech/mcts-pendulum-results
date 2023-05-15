@@ -77,8 +77,8 @@ The full test case (as in C) has a few more exploration parameters included. The
 | [Q](Plots_fig_dp_Q.md)   | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.7xt)^2)             | 20          | 200         | Full range                                       |
 | [R](Plots_fig_dp_R.md)   | 0.7exp(-(a/0.7at)^2)+0.3exp(-(x/0.7xt)^2)               | 20          | 200         | Full range                                       |
 | [S](Plots_fig_dp_S.md)   | 0.85exp(-(a/0.7at)^2)+0.15exp(-(x/0.4xt)^2)             | 20          | 200         | Full range                                       |
-| [T](Plots_fig_dp_T.md)   | C with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0    |
-| [U](Plots_fig_dp_U.md)   | N with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [8, 16, 32, 64, 128, 256] |
+| [T](Plots_fig_dp_T.md)   | C with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0                                 |
+| [U](Plots_fig_dp_U.md)   | N with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0                                 |
 | [V](Plots_fig_dp_V.md)   | Q with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64]              |
 | [W](Plots_fig_dp_W.md)   | R with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64]              |
 | [X](Plots_fig_dp_X.md)   | S with more steps                                       | 20          | **500**     | γ = 0.9:0.05:1.0, Cₚ = [16, 32, 64]              |
