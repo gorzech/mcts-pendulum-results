@@ -19,7 +19,7 @@ Now two sets of results are available - for the single and double pendulum!
 
 \begin{equation}
     R=1
-    \label{eq: reward 1}
+    \label{eq:constant}
 \end{equation}
 
 \begin{equation}
@@ -27,12 +27,17 @@ Now two sets of results are available - for the single and double pendulum!
     \label{eq: reward polynomial angle}
 \end{equation}
 
+## Results for the single pendulum from Data
+
+| Results   | Name  | Force \[N\] | Steps \[-\] |
+| --------- | ----- | ----------- | ----------- |
+{% for item in site.data.single_pendulum_plots %} | [{{ item.id }}](Plots_fig_sp_{{ item.id }}.html) | {{ item.name }} | {% if item.force == 10 %} {{ item.force }} {% else %} **{{ item.force }}** {% endif %}  | {% if item.steps == 200 %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | 
+{% endfor %}
+
 ## Results for the single pendulum {#single_pendulum}
 
 | Link                     | Reward                                        | Force \[N\] | Steps \[-\] |
 | ------------------------ | --------------------------------------------- | ----------- | ----------- |
-| [D](Plots_fig_sp_D.md)   | Default.                                      | 10          | 200         |
-| [E](Plots_fig_sp_E.md)   | Default.                                      | 10          | **500**     |
 | [F](Plots_fig_sp_F.md)   | Reward 1 or 0.5 (half-way).                   | 10          | 200         |
 | [G](Plots_fig_sp_G.md)   | 0.5 cart penalty linear.                      | 10          | 200         |
 | [H](Plots_fig_sp_H.md)   | Reward 1 or 0.5.                              | 10          | **500**     |
