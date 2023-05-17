@@ -2,12 +2,11 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
+title: Summary of MCTS results
+usemathjax: true
+notusewidecss: false
 ---
-
-# {{ "Hello World!" | downcase }}
-
-Lets see if this thing works.
 
 # Results for the inverted pendulum analysis using MCTS
 
@@ -16,11 +15,23 @@ Now two sets of results are available - for the single and double pendulum!
  - [Single pendulum](#single_pendulum)
  - [Double pendulum](#double_pendulum)
 
+## Rewards used in the investigations
+
+\begin{equation}
+    R=1
+    \label{eq: reward 1}
+\end{equation}
+
+\begin{equation}
+    R = 1 - w\frac{1}{n}\sum_{i=1}^n \left( \frac{|\theta_i|}{\theta_{\max}} \right)^{p_{\theta}} - (1-w)\left( \frac{|x|}{x_{\max}} \right)^{p_x}
+    \label{eq: reward polynomial angle}
+\end{equation}
+
 ## Results for the single pendulum {#single_pendulum}
 
 | Link                     | Reward                                        | Force \[N\] | Steps \[-\] |
 | ------------------------ | --------------------------------------------- | ----------- | ----------- |
-| [D](Plots_fig_sp_D.html)   | Default.                                      | 10          | 200         |
+| [D](Plots_fig_sp_D.md)   | Default.                                      | 10          | 200         |
 | [E](Plots_fig_sp_E.md)   | Default.                                      | 10          | **500**     |
 | [F](Plots_fig_sp_F.md)   | Reward 1 or 0.5 (half-way).                   | 10          | 200         |
 | [G](Plots_fig_sp_G.md)   | 0.5 cart penalty linear.                      | 10          | 200         |
