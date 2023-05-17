@@ -1,6 +1,7 @@
 using Environments
 import Environments: reward
 using PureMCTS
+using Plots
 
 
 function reward_cart_angle_use_exp(
@@ -80,4 +81,18 @@ function check_reward_here_and_there(reward_function)
         end
         println("")
     end
+end
+
+function plot_reward_along_angle(reward_function)
+    env = InvertedPendulumEnv()
+    reset!(env)
+
+    x = 0.0
+    angles = LinRange(-env.opts.theta_threshold_radians, env.opts.theta_threshold_radians, 101)
+    rewards = map((θ) -> begin
+        env.state.y = [x, 0.0, θ, 0.0]
+        reward_function(env)
+    end, angles)
+
+    plot(angles, rewards)
 end

@@ -6,7 +6,7 @@ csv_prefix = "dp_S"
 max_mean = 200
 
 ## Double pendulun 500 steps
-csv_prefix = "dp_AB"
+csv_prefix = "dp_Z"
 max_mean = 500
 
 ## Read all files

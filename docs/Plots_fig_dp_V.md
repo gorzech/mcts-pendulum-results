@@ -1,6 +1,42 @@
 # Results for the file dp_V_20230502.csv 
 
-Generated on 2023-05-12 09:26:01
+Generated on 2023-05-17 09:28:03
+
+---
+
+**Exploration parameter = 0**
+
+| Cₚ = 0 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_V/mean_g_0.9_cp_0.png) | ![](fig/dp_V/mean_g_0.95_cp_0.png) | ![](fig/dp_V/mean_g_1.0_cp_0.png) | 
+| Std | ![](fig/dp_V/std_g_0.9_cp_0.png) | ![](fig/dp_V/std_g_0.95_cp_0.png) | ![](fig/dp_V/std_g_1.0_cp_0.png) | 
+
+---
+
+**Exploration parameter = 2**
+
+| Cₚ = 2 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_V/mean_g_0.9_cp_2.png) | ![](fig/dp_V/mean_g_0.95_cp_2.png) | ![](fig/dp_V/mean_g_1.0_cp_2.png) | 
+| Std | ![](fig/dp_V/std_g_0.9_cp_2.png) | ![](fig/dp_V/std_g_0.95_cp_2.png) | ![](fig/dp_V/std_g_1.0_cp_2.png) | 
+
+---
+
+**Exploration parameter = 4**
+
+| Cₚ = 4 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_V/mean_g_0.9_cp_4.png) | ![](fig/dp_V/mean_g_0.95_cp_4.png) | ![](fig/dp_V/mean_g_1.0_cp_4.png) | 
+| Std | ![](fig/dp_V/std_g_0.9_cp_4.png) | ![](fig/dp_V/std_g_0.95_cp_4.png) | ![](fig/dp_V/std_g_1.0_cp_4.png) | 
+
+---
+
+**Exploration parameter = 8**
+
+| Cₚ = 8 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_V/mean_g_0.9_cp_8.png) | ![](fig/dp_V/mean_g_0.95_cp_8.png) | ![](fig/dp_V/mean_g_1.0_cp_8.png) | 
+| Std | ![](fig/dp_V/std_g_0.9_cp_8.png) | ![](fig/dp_V/std_g_0.95_cp_8.png) | ![](fig/dp_V/std_g_1.0_cp_8.png) | 
 
 ---
 
@@ -28,4 +64,22 @@ Generated on 2023-05-12 09:26:01
 | --- | --- | --- | --- | 
 | Mean | ![](fig/dp_V/mean_g_0.9_cp_64.png) | ![](fig/dp_V/mean_g_0.95_cp_64.png) | ![](fig/dp_V/mean_g_1.0_cp_64.png) | 
 | Std | ![](fig/dp_V/std_g_0.9_cp_64.png) | ![](fig/dp_V/std_g_0.95_cp_64.png) | ![](fig/dp_V/std_g_1.0_cp_64.png) | 
+
+---
+
+**Exploration parameter = 128**
+
+| Cₚ = 128 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_V/mean_g_0.9_cp_128.png) | ![](fig/dp_V/mean_g_0.95_cp_128.png) | ![](fig/dp_V/mean_g_1.0_cp_128.png) | 
+| Std | ![](fig/dp_V/std_g_0.9_cp_128.png) | ![](fig/dp_V/std_g_0.95_cp_128.png) | ![](fig/dp_V/std_g_1.0_cp_128.png) | 
+
+---
+
+**Exploration parameter = 256**
+
+| Cₚ = 256 | γ = 0.9 | γ = 0.95 | γ = 1.0 | 
+| --- | --- | --- | --- | 
+| Mean | ![](fig/dp_V/mean_g_0.9_cp_256.png) | ![](fig/dp_V/mean_g_0.95_cp_256.png) | ![](fig/dp_V/mean_g_1.0_cp_256.png) | 
+| Std | ![](fig/dp_V/std_g_0.9_cp_256.png) | ![](fig/dp_V/std_g_0.95_cp_256.png) | ![](fig/dp_V/std_g_1.0_cp_256.png) | 
 
