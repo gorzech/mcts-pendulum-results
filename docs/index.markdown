@@ -27,56 +27,12 @@ Now two sets of results are available - for the single and double pendulum!
     \label{eq: reward polynomial angle}
 \end{equation}
 
-## Results for the single pendulum from Data
-
-| Results   | Name  | Force \[N\] | Steps \[-\] |
-| --------- | ----- | ----------- | ----------- |
-{% for item in site.data.single_pendulum_plots %} | [{{ item.id }}](Plots_fig_sp_{{ item.id }}.html) | {{ item.name }} | {% if item.force == 10 %} {{ item.force }} {% else %} **{{ item.force }}** {% endif %}  | {% if item.steps == 200 %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | 
-{% endfor %}
-
 ## Results for the single pendulum {#single_pendulum}
 
-| Link                     | Reward                                        | Force \[N\] | Steps \[-\] |
-| ------------------------ | --------------------------------------------- | ----------- | ----------- |
-| [F](Plots_fig_sp_F.md)   | Reward 1 or 0.5 (half-way).                   | 10          | 200         |
-| [G](Plots_fig_sp_G.md)   | 0.5 cart penalty linear.                      | 10          | 200         |
-| [H](Plots_fig_sp_H.md)   | Reward 1 or 0.5.                              | 10          | **500**     |
-| [I](Plots_fig_sp_I.md)   | Default.                                      | **12**      | 200         |
-| [J](Plots_fig_sp_J.md)   | Cart penalty linear.                          | 10          | 200         |
-| [K](Plots_fig_sp_K.md)   | Cart penalty linear.                          | **12**      | 200         |
-| [L](Plots_fig_sp_L.md)   | Angle penalty linear.                         | 10          | 200         |
-| [M](Plots_fig_sp_M.md)   | Angle penalty linear.                         | **12**      | 200         |
-| [N](Plots_fig_sp_N.md)   | Tip penalty 0.5/0.5.                          | 10          | 200         |
-| [O](Plots_fig_sp_O.md)   | Default.                                      | **15**      | 200         |
-| [P](Plots_fig_sp_P.md)   | Penalty linear 0.5 cart 0.5 angle             | 10          | 200         |
-| [Q](Plots_fig_sp_Q.md)   | Penalty linear 0.25 cart 0.75 angle           | 10          | 200         |
-| [R](Plots_fig_sp_R.md)   | Penalty linear 0.75 cart 0.25 angle           | 10          | 200         |
-| [S](Plots_fig_sp_S.md)   | Angle penalty quadratic                       | 10          | 200         |
-| [T](Plots_fig_sp_T.md)   | Cart penalty quadratic                        | 10          | 200         |
-| [U](Plots_fig_sp_U.md)   | Penalty quadratic 0.25/0.75 cart/angle        | 10          | 200         |
-| [V](Plots_fig_sp_V.md)   | Angle penalty sqrt                            | 10          | 200         |
-| [W](Plots_fig_sp_W.md)   | Penalty power 6/2 0.25/0.75 cart/angle        | 10          | 200         |
-| [X](Plots_fig_sp_X.md)   | Tip penalty 0.25/0.75 x-tip/y-tip             | 10          | 200         |
-| [Y](Plots_fig_sp_Y.md)   | Angle penalty exp(-(a / 5) ^ 2)               | 10          | 200         |
-| [Z](Plots_fig_sp_Z.md)   | Penalty linear 0.25 cart 0.75 angle           | 10          | **500**     |
-| [AA](Plots_fig_sp_AA.md) | Angle penalty exp(-(a / 3) ^ 2)               | 10          | 200         |
-| [AB](Plots_fig_sp_AB.md) | Angle penalty exp(-(a / 8) ^ 2)               | 10          | 200         |
-| [AC](Plots_fig_sp_AC.md) | Angle penalty exp(-(a / 2) ^ 2)               | 10          | 200         |
-| [AD](Plots_fig_sp_AD.md) | Angle penalty exp(-(a / 1) ^ 2)               | 10          | 200         |
-| [AE](Plots_fig_sp_AE.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.25xt)^2) | 10          | 200         |
-| [AF](Plots_fig_sp_AF.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.2xt)^2)  | 10          | 200         |
-| [AG](Plots_fig_sp_AG.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.3xt)^2)  | 10          | 200         |
-| [AH](Plots_fig_sp_AH.md) | 0.85exp(-(a/0.25at)^2)+0.15exp(-(x/0.25xt)^2) | 10          | 200         |
-| [AI](Plots_fig_sp_AI.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.1xt)^2)  | 10          | 200         |
-| [AJ](Plots_fig_sp_AJ.md) | 0.75exp(-(a/0.25at)^2)+0.25exp(-(x/0.4xt)^2)  | 10          | 200         |
-| [AK](Plots_fig_sp_AK.md) | exp(-(ytip/0.25ymax)^2)                       | 10          | 200         |
-| [AL](Plots_fig_sp_AL.md) | exp(-(ytip/0.1ymax)^2)                        | 10          | 200         |
-| [AM](Plots_fig_sp_AM.md) | exp(-(ytip/0.4ymax)^2)                        | 10          | 200         |
-| [AN](Plots_fig_sp_AN.md) | AA with more steps                            | 10          | **500**     |
-| [AO](Plots_fig_sp_AO.md) | AH with more steps                            | 10          | **500**     |
-| [AP](Plots_fig_sp_AP.md) | 0.95exp(-(a/0.25at)^2)+0.05exp(-(x/0.25xt)^2) | 10          | **500**     |
-| [AQ](Plots_fig_sp_AQ.md) | AL with more steps                            | 10          | **500**     |
-| [AR](Plots_fig_sp_AR.md) | θ>2 ? exp(-((θ-2)/3)^2) : exp(-((θ-2)/5 ^2))  | 10          | 200         |
+| Results   | Name  | Steps \[-\] |
+| --------- | ----- | ----------- |
+{% for item in site.data.single_pendulum_plots %} | [{{ item.id }}](Plots_fig_sp_{{ item.id }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | 
+{% endfor %}
 
 ## Results for the double pendulum {#double_pendulum}
 

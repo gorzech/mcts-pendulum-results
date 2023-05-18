@@ -1,14 +1,14 @@
 <!-- for mathjax support -->
 {% if page.usemathjax %}
 <script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-  TeX: { equationNumbers: { autoNumber: "AMS" } }
-  });
+  window.MathJax = {
+  tex: { tags: 'ams' }
+  };
 </script>
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
+  </script>
 {% endif %}
 {% if page.notusewidecss != false %}
-  <link rel="stylesheet" href="{{ '/assets/css/wide_page.css?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/wide_page.css?v=' | append: site.github.build_revision | relative_url }}">
 {% endif %}
