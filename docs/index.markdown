@@ -63,5 +63,5 @@ The test cases for 500 steps are limited to γ = 0.9:0.05:1.0
 
 | ID   | Name  | Steps \[-\] | Equation | \\(w\\) | \\(q_\theta\\) or \\(q_y\\) | \\(q_x\\) | Notes            |
 | ---- | ----- | ----------- | -------- | ------- | --------------------------- | --------- | ---------------- |
-{% for item in site.data.double_pendulum_plots %} | [{{ item.id }}](Plots_fig_sp_{{ item.id }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | {{ item.equation }} | {{ item.w }} | {{ item.q_theta }} | {{ item.q_x }} | {{ item.note }} |
+{% for item in site.data.double_pendulum_plots %} | [{{ item.id }}](Plots_fig_dp_{{ item.id }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | {{ item.equation }} | {{ item.w }} | {{ item.q_theta }} | {{ item.q_x }} | {{ item.note }} |
 {% endfor %}
