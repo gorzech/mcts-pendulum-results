@@ -1,6 +1,6 @@
 name,steps,id,equation,w,q_theta,q_x,note
 Constant,200,C,\eqref{eq: reward 1},--,--,--,
-Constant,500,T,\eqref{eq: reward 1},--,--,--,\\(\gamma=0.9:0.05:1\\)
+Constant,500,T,\eqref{eq: reward 1},--,--,--,
 Exponential to \\(\theta_1\\) I,200,E,\eqref{eq: exponential reward angle},1,0.25,--,
 Exponential to \\(\theta_1\\) II,200,H,\eqref{eq: exponential reward angle},1,0.1,--,
 Exponential to \\(\theta_1\\) III,200,I,\eqref{eq: exponential reward angle},1,0.4,--,
@@ -18,9 +18,9 @@ Exponential to \\(\theta_1\\) and \\(x\\) IV,500,X,\eqref{eq: exponential reward
 Exponential to \\(y^e\\) I,200,G,\eqref{eq: exponential reward tip},1,0.25,--,
 Exponential to \\(y^e\\) II,200,J,\eqref{eq: exponential reward tip},1,0.1,--,
 Exponential to \\(y^e\\) III,200,K,\eqref{eq: exponential reward tip},1,0.4,--,
-Exponential to \\(y^e\\) I,500,Y,\eqref{eq: exponential reward tip},1,0.25,--,\\(\gamma=0.9:0.05:1\\)
+Exponential to \\(y^e\\) I,500,Y,\eqref{eq: exponential reward tip},1,0.25,--,
 Exponential to \\(y^e\\) II,500,AB,\eqref{eq: exponential reward tip},1,0.1,--,
-Exponential to \\(y^e\\) III,500,AC,\eqref{eq: exponential reward tip},1,0.4,--,\\(\gamma=0.9:0.05:1\\)
+Exponential to \\(y^e\\) III,500,AC,\eqref{eq: exponential reward tip},1,0.4,--,
 Exponential to \\(y^e\\) and \\(x^e\\) I,200,M,\eqref{eq: exponential reward tip},0.95,0.25,0.25,
 Exponential to \\(y^e\\) and \\(x^e\\) II,200,O,\eqref{eq: exponential reward tip},0.8,0.25,0.25,
 Exponential to \\(y^e\\) and \\(x^e\\) I,500,AA,\eqref{eq: exponential reward tip},0.95,0.25,0.25,
