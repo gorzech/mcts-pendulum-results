@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Polynomial to θ₁ and x reward and 200 steps
+permalink: plots/single/M.html
+---
 # Results for the file csv/sp_W_20230323.csv 
 
 Generated on 2023-03-24 08:36:26

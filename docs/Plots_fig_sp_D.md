@@ -1,4 +1,6 @@
 ---
+title: Single pendulum with Constant reward and 200 steps
+permalink: plots/single/A.html
 ---
 # Results for the file csv/sp_D_20221128.csv 
 

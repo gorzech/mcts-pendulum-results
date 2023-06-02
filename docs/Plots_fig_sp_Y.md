@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Exponential to θ₁ I reward and 200 steps
+permalink: plots/single/P.html
+---
 # Results for the file csv/sp_Y_20230323.csv 
 
 Generated on 2023-03-24 12:40:28

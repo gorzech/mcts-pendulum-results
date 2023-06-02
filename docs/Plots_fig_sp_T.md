@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Quadratic to x reward and 200 steps
+permalink: plots/single/J.html
+---
 # Results for the file csv/sp_T_20230323.csv 
 
 Generated on 2023-03-23 09:10:22

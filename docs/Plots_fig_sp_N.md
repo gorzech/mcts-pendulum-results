@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Linear to yᵉ and xᵉ I reward and 200 steps
+permalink: plots/single/N.html
+---
 # Results for the file csv/sp_N_20230316.csv 
 
 Generated on 2023-03-21 13:19:41

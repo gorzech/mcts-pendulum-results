@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Square root to θ₁ reward and 200 steps
+permalink: plots/single/L.html
+---
 # Results for the file csv/sp_V_20230323.csv 
 
 Generated on 2023-03-24 08:36:09

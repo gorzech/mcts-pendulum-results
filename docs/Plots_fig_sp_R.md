@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Linear to θ₁ and x III reward and 200 steps
+permalink: plots/single/G.html
+---
 # Results for the file csv/sp_R_20230320.csv 
 
 Generated on 2023-03-21 16:28:53

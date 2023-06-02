@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Exponential to yᵉ III reward and 200 steps
+permalink: plots/single/AF.html
+---
 # Results for the file csv/sp_AM_20230330.csv 
 
 Generated on 2023-03-31 18:42:30

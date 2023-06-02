@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Linear to x reward and 200 steps
+permalink: plots/single/C.html
+---
 # Results for the file csv/sp_J_20230315.csv 
 
 Generated on 2023-03-21 13:16:13

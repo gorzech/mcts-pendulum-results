@@ -1,3 +1,6 @@
+---
+published: false
+---
 # Results for the file csv/sp_AR_20230404.csv 
 
 Generated on 2023-04-05 10:38:03

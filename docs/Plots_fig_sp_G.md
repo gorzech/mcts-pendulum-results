@@ -1,3 +1,6 @@
+---
+published: false
+---
 # Results for the file csv/sp_G_20221219.csv 
 
 Generated on 2023-03-21 12:54:49

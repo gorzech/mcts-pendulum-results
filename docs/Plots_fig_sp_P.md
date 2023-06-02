@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Linear to θ₁ and x I reward and 200 steps
+permalink: plots/single/E.html
+---
 # Results for the file dp_Q_20230426 
 
 Generated on 2023-04-28 10:21:57

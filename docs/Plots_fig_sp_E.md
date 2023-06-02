@@ -1,3 +1,7 @@
+---
+title: Single pendulum with Constant reward and 500 steps
+permalink: plots/single/B.html
+---
 # Results for the file csv/sp_E_20221215.csv 
 
 Generated on 2023-03-21 12:32:59

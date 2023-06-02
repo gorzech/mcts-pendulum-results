@@ -1,34 +1,34 @@
-name,steps,id,equation,w,p_theta,p_x,q_theta,q_x
-Constant,200,D,\eqref{eq: reward 1},--,--,--,--,--
-Constant,500,E,\eqref{eq: reward 1},--,--,--,--,--
-Linear to \\(x\\),200,J,\eqref{eq: reward polynomial angle},0,--,1,--,--
-Linear to \\(\theta_1\\),200,L,\eqref{eq: reward polynomial angle},1,1,--,--,--
-Linear to \\(\theta_1\\) and \\(x\\) I,200,P,\eqref{eq: reward polynomial angle},0.5,1,1,--,--
-Linear to \\(\theta_1\\) and \\(x\\) II,200,Q,\eqref{eq: reward polynomial angle},0.75,1,1,--,--
-Linear to \\(\theta_1\\) and \\(x\\) III,200,R,\eqref{eq: reward polynomial angle},0.25,1,1,--,--
-Linear to \\(\theta_1\\) and \\(x\\) II,500,Z,\eqref{eq: reward polynomial angle},0.75,1,1,--,--
-Quadratic to \\(\theta_1\\),200,S,\eqref{eq: reward polynomial angle},1,2,--,--,--
-Quadratic to \\(x\\),200,T,\eqref{eq: reward polynomial angle},0,--,2,--,--
-Quadratic to \\(\theta_1\\) and \\(x\\),200,U,\eqref{eq: reward polynomial angle},0.75,2,2,--,--
-Square root to \\(\theta_1\\),200,V,\eqref{eq: reward polynomial angle},1,0.5,--,--,--
-Polynomial to \\(\theta_1\\) and \\(x\\),200,W,\eqref{eq: reward polynomial angle},0.75,2,6,--,--
-Linear to \\(y^e\\) and \\(x^e\\) I,200,N,\eqref{eq: reward polynomial tip},0.5,1,1,--,--
-Linear to \\(y^e\\) and \\(x^e\\) II,200,X,\eqref{eq: reward polynomial tip},0.75,1,1,--,--
-Exponential to \\(\theta_1\\) I,200,Y,\eqref{eq: exponential reward angle},1,--,--,5/12,--
-Exponential to \\(\theta_1\\) II,200,AA,\eqref{eq: exponential reward angle},1,--,--,0.25,--
-Exponential to \\(\theta_1\\) III,200,AB,\eqref{eq: exponential reward angle},1,--,--,2/3,--
-Exponential to \\(\theta_1\\) IV,200,AC,\eqref{eq: exponential reward angle},1,--,--,1/6,--
-Exponential to \\(\theta_1\\) V,200,AD,\eqref{eq: exponential reward angle},1,--,--,1/12,--
-Exponential to \\(\theta_1\\) II,500,AN,\eqref{eq: exponential reward angle},1,--,--,0.25,--
-Exponential to \\(\theta_1\\) and \\(x\\) I,200,AE,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.25
-Exponential to \\(\theta_1\\) and \\(x\\) II,200,AF,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.2
-Exponential to \\(\theta_1\\) and \\(x\\) III,200,AG,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.3
-Exponential to \\(\theta_1\\) and \\(x\\) IV,200,AH,\eqref{eq: exponential reward angle},0.85,--,--,0.25,0.25
-Exponential to \\(\theta_1\\) and \\(x\\) V,200,AI,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.1
-Exponential to \\(\theta_1\\) and \\(x\\) VI,200,AJ,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.4
-Exponential to \\(\theta_1\\) and \\(x\\) IV,500,AO,\eqref{eq: exponential reward angle},0.85,--,--,0.25,0.25
-Exponential to \\(\theta_1\\) and \\(x\\) VII,500,AP,\eqref{eq: exponential reward angle},0.95,--,--,0.25,0.25
-Exponential to \\(y^e\\) I,200,AK,\eqref{eq: exponential reward tip},1,--,--,0.25,--
-Exponential to \\(y^e\\) II,200,AL,\eqref{eq: exponential reward tip},1,--,--,0.1,--
-Exponential to \\(y^e\\) III,200,AM,\eqref{eq: exponential reward tip},1,--,--,0.4,--
-Exponential to \\(y^e\\) II,500,AQ,\eqref{eq: exponential reward tip},1,--,--,0.1,--
+name,steps,id,id_old,equation,w,p_theta,p_x,q_theta,q_x
+Constant,200,A,D,\eqref{eq: reward 1},--,--,--,--,--
+Constant,500,B,E,\eqref{eq: reward 1},--,--,--,--,--
+Linear to \\(x\\),200,C,J,\eqref{eq: reward polynomial angle},0,--,1,--,--
+Linear to \\(\theta_1\\),200,D,L,\eqref{eq: reward polynomial angle},1,1,--,--,--
+Linear to \\(\theta_1\\) and \\(x\\) I,200,E,P,\eqref{eq: reward polynomial angle},0.5,1,1,--,--
+Linear to \\(\theta_1\\) and \\(x\\) II,200,F,Q,\eqref{eq: reward polynomial angle},0.75,1,1,--,--
+Linear to \\(\theta_1\\) and \\(x\\) III,200,G,R,\eqref{eq: reward polynomial angle},0.25,1,1,--,--
+Linear to \\(\theta_1\\) and \\(x\\) II,500,H,Z,\eqref{eq: reward polynomial angle},0.75,1,1,--,--
+Quadratic to \\(\theta_1\\),200,I,S,\eqref{eq: reward polynomial angle},1,2,--,--,--
+Quadratic to \\(x\\),200,J,T,\eqref{eq: reward polynomial angle},0,--,2,--,--
+Quadratic to \\(\theta_1\\) and \\(x\\),200,K,U,\eqref{eq: reward polynomial angle},0.75,2,2,--,--
+Square root to \\(\theta_1\\),200,L,V,\eqref{eq: reward polynomial angle},1,0.5,--,--,--
+Polynomial to \\(\theta_1\\) and \\(x\\),200,M,W,\eqref{eq: reward polynomial angle},0.75,2,6,--,--
+Linear to \\(y^e\\) and \\(x^e\\) I,200,N,N,\eqref{eq: reward polynomial tip},0.5,1,1,--,--
+Linear to \\(y^e\\) and \\(x^e\\) II,200,O,X,\eqref{eq: reward polynomial tip},0.75,1,1,--,--
+Exponential to \\(\theta_1\\) I,200,P,Y,\eqref{eq: exponential reward angle},1,--,--,5/12,--
+Exponential to \\(\theta_1\\) II,200,Q,AA,\eqref{eq: exponential reward angle},1,--,--,0.25,--
+Exponential to \\(\theta_1\\) III,200,R,AB,\eqref{eq: exponential reward angle},1,--,--,2/3,--
+Exponential to \\(\theta_1\\) IV,200,S,AC,\eqref{eq: exponential reward angle},1,--,--,1/6,--
+Exponential to \\(\theta_1\\) V,200,T,AD,\eqref{eq: exponential reward angle},1,--,--,1/12,--
+Exponential to \\(\theta_1\\) II,500,U,AN,\eqref{eq: exponential reward angle},1,--,--,0.25,--
+Exponential to \\(\theta_1\\) and \\(x\\) I,200,V,AE,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.25
+Exponential to \\(\theta_1\\) and \\(x\\) II,200,W,AF,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.2
+Exponential to \\(\theta_1\\) and \\(x\\) III,200,X,AG,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.3
+Exponential to \\(\theta_1\\) and \\(x\\) IV,200,Y,AH,\eqref{eq: exponential reward angle},0.85,--,--,0.25,0.25
+Exponential to \\(\theta_1\\) and \\(x\\) V,200,Z,AI,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.1
+Exponential to \\(\theta_1\\) and \\(x\\) VI,200,AA,AJ,\eqref{eq: exponential reward angle},0.75,--,--,0.25,0.4
+Exponential to \\(\theta_1\\) and \\(x\\) IV,500,AB,AO,\eqref{eq: exponential reward angle},0.85,--,--,0.25,0.25
+Exponential to \\(\theta_1\\) and \\(x\\) VII,500,AC,AP,\eqref{eq: exponential reward angle},0.95,--,--,0.25,0.25
+Exponential to \\(y^e\\) I,200,AD,AK,\eqref{eq: exponential reward tip},1,--,--,0.25,--
+Exponential to \\(y^e\\) II,200,AE,AL,\eqref{eq: exponential reward tip},1,--,--,0.1,--
+Exponential to \\(y^e\\) III,200,AF,AM,\eqref{eq: exponential reward tip},1,--,--,0.4,--
+Exponential to \\(y^e\\) II,500,AG,AQ,\eqref{eq: exponential reward tip},1,--,--,0.1,--

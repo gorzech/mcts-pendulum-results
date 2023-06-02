@@ -54,7 +54,7 @@ A default parameter range is γ = 0.5:0.05:1.0 and Cₚ = [0, 2, 4, 8, 16, 32, 6
 
 | ID   | Name  | Steps \[-\] | Equation | \\(w\\) | \\(p_\theta\\) or \\(p_y\\) | \\(p_x\\) | \\(q_\theta\\) or \\(q_y\\) | \\(q_x\\) |
 | ---- | ----- | ----------- | -------- | ----- | ----------------------- | ------- | ----------------------- | ------- |
-{% for item in site.data.single_pendulum_plots %} | [{{ item.id }}](Plots_fig_sp_{{ item.id }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | {{ item.equation }} | {{ item.w }} | {{ item.p_theta }} | {{ item.p_x }} | {{ item.q_theta }} | {{ item.q_x }} |
+{% for item in site.data.single_pendulum_plots %} | [{{ item.id }}](plots/single/{{ item.id }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | {{ item.equation }} | {{ item.w }} | {{ item.p_theta }} | {{ item.p_x }} | {{ item.q_theta }} | {{ item.q_x }} |
 {% endfor %}
 
 ## Results for the double pendulum {#double_pendulum}
@@ -63,5 +63,5 @@ A default parameter range is γ = 0.7:0.05:1.0 and Cₚ = [0, 2, 4, 8, 16, 32, 6
 
 | ID   | Name  | Steps \[-\] | Equation | \\(w\\) | \\(q_\theta\\) or \\(q_y\\) | \\(q_x\\) |
 | ---- | ----- | ----------- | -------- | ------- | --------------------------- | --------- |
-{% for item in site.data.double_pendulum_plots %} | [{{ item.id }}](Plots_fig_dp_{{ item.id }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | {{ item.equation }} | {{ item.w }} | {{ item.q_theta }} | {{ item.q_x }} |
+{% for item in site.data.double_pendulum_plots %} | [{{ item.id }}](Plots_fig_dp_{{ item.id_old }}.html) | {{ item.name }} | {% if item.steps == "200" %} {{ item.steps }} {% else %} **{{ item.steps }}** {% endif %} | {{ item.equation }} | {{ item.w }} | {{ item.q_theta }} | {{ item.q_x }} |
 {% endfor %}
