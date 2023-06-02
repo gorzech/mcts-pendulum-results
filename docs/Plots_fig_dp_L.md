@@ -1,3 +1,7 @@
+---
+title: Double pendulum with Exponential to θ₁ IV reward and 200 steps
+permalink: plots/double/F.html
+---
 # Results for the file dp_L_20230413.csv 
 
 Generated on 2023-05-11 16:17:47

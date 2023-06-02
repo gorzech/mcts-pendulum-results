@@ -1,3 +1,7 @@
+---
+title: Double pendulum with Exponential to θ₁ and x II reward and 200 steps
+permalink: plots/double/K.html
+---
 # Results for the file dp_Q_20230426.csv 
 
 Generated on 2023-05-11 16:16:46

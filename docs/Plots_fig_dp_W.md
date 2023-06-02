@@ -1,3 +1,7 @@
+---
+title: Double pendulum with Exponential to θ₁ and x III reward and 500 steps
+permalink: plots/double/O.html
+---
 # Results for the file dp_W_20230502.csv 
 
 Generated on 2023-05-21 20:30:55

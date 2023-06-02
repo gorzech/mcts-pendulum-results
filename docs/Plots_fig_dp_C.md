@@ -1,4 +1,6 @@
 ---
+title: Double pendulum with Constant reward and 200 steps
+permalink: plots/double/A.html
 ---
 # Results for the file csv/dp_C_20221118.csv 
 

@@ -1,3 +1,7 @@
+---
+title: Double pendulum with Constant reward and 500 steps
+permalink: plots/double/B.html
+---
 # Results for the file dp_T_20230501.csv 
 
 Generated on 2023-05-21 23:40:42

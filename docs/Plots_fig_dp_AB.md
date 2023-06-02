@@ -1,3 +1,7 @@
+---
+title: Double pendulum with Exponential to yᵉ II reward and 500 steps
+permalink: plots/double/U.html
+---
 # Results for the file dp_AB_20230508.csv 
 
 Generated on 2023-05-21 20:35:00
