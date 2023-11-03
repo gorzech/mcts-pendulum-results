@@ -99,7 +99,7 @@ function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true,
     end
     if !save_svg
         csv_file = get_csv_filename_from_prefix(data_prefix)
-        open(Root_publish_directory * "Plots_fig_$data_prefix.md", "w") do f
+        open(markdown_file_name(data_prefix), "w") do f
             write(f, "# Results for the file $csv_file \n\n")
             write(f, "Generated on ", Dates.format(now(), Date_format), "\n\n")
             for cp in all_cp
@@ -113,6 +113,9 @@ function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true,
     end
     println("Making plots complete.")
 end
+
+markdown_file_name(data_prefix) = Root_publish_directory * "Plots_fig_$data_prefix.md"
+
 
 function success_rate(df, max_mean)
     field = df.steps_mean
