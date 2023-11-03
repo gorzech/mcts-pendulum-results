@@ -33,3 +33,6 @@ Manifest.toml
 
 # Ignore text files
 latex/
+
+# Ignore Mac files
+.DS_Store

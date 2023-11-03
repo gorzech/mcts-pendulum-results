@@ -1,0 +1,12 @@
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Environments = "3a0e23c7-c015-460e-b903-d2dac87c3752"
+EnvironmentsRender = "c300cdb7-4d3c-4ff5-92e1-50de43cb48fa"
+MKL = "33e6dc65-8f57-5167-99aa-e5a354878fb2"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PureMCTS = "cde1e6ed-b6c5-4433-b8e3-a6e84e6a9009"
+
+[compat]
+ColorSchemes = "3.23"
