@@ -13,7 +13,7 @@ include("csv_file_support.jl")
 const Root_publish_directory = "docs/"
 const Date_format = "yyyy-mm-dd HH:MM:SS"
 
-function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true, 
+function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true,
     data_prefix=nothing, generate_md_only=false)
     gdf = groupby(df, [:horizon, :budget, :exploration_param, :gamma])
     # Compute statistics
@@ -43,18 +43,18 @@ function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true,
         else
             png_file(g, cp, "std")
         end
-    
+
     all_gamma = sort!(unique(stat_df[:, :gamma]))
     all_cp = sort!(unique(stat_df[:, :exploration_param]))
 
-    success_rates = Dict{Tuple{Float64, Int64}, Float64}()
+    success_rates = Dict{Tuple{Float64,Int64},Float64}()
     for g in all_gamma
         for cp in all_cp
             df_plot = subset(
                 stat_df,
                 [:gamma, :exploration_param] => (_g, _cp) -> _g .== g .&& _cp .== cp,
             )
-            success_rates[(g,cp)] = success_rate(df_plot, max_mean)
+            success_rates[(g, cp)] = success_rate(df_plot, max_mean)
             sort!(df_plot, [:budget, :horizon])
             if generate_md_only
                 continue
@@ -72,7 +72,7 @@ function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true,
         # Write header
         write(f, "| Cₚ = $(cp) ")
         for g in all_gamma
-            S = success_rates[(g,cp)]
+            S = success_rates[(g, cp)]
             write(f, "| γ = $g, S = $(round(S * 100, digits=2))% ")
         end
         write(f, "| \n")
@@ -114,14 +114,65 @@ function export_heatmap_plots(df; save_svg=true, max_mean=200, use_gr=true,
     println("Making plots complete.")
 end
 
-markdown_file_name(data_prefix) = Root_publish_directory * "Plots_fig_$data_prefix.md"
+function rewrite_all_csv_results(pendulum_name)
+    plot_list = CSV.read("plot_list_$(pendulum_name)_pendulum.csv", DataFrame)
+    web_page_plot_list = CSV.read(Root_publish_directory * "_data/$(pendulum_name)_pendulum_plots.csv", DataFrame)
 
+    for pl in eachrow(plot_list)
+        data_prefix = pendulum_name[1] * "p_" * pl.id
+        max_mean = pl.steps
+
+        df = read_csv_from_prefix(data_prefix)
+        export_heatmap_plots(df, save_svg=false, data_prefix=data_prefix, max_mean=max_mean,
+            generate_md_only=true)
+
+        web_df = web_page_plot_list[web_page_plot_list.id_old.==pl.id, :]
+        yaml_header_text = if isempty(web_df)
+            """
+            ---
+            published: false
+            ---
+
+            """
+        else
+            @assert nrow(web_df) == 1 "There must be one record with given ID!"
+            @assert web_df.steps[1] == pl.steps "The number of steps in data files is inconsistent. Please verify data!"
+            """
+            ---
+            title: $(uppercasefirst(pendulum_name)) pendulum with $(web_df.name[1]) reward and $(web_df.steps[1]) steps
+            permalink: plots/$(pendulum_name)/$(web_df.id[1]).html
+            ---
+
+            """
+        end
+        # Write header at start of the file
+        write_markdown_header(data_prefix, yaml_header_text)
+    end
+end
+
+function write_markdown_header(data_prefix, header_text)
+    my_markdown = markdown_file_name(data_prefix)
+    cdata = open(io -> read(io, String), my_markdown)
+    open(my_markdown, "w") do s
+        write(s, header_text)
+        write(s, cdata)
+    end
+end
+
+markdown_file_name(data_prefix) = Root_publish_directory * "Plots_fig_$data_prefix.md"
 
 function success_rate(df, max_mean)
     field = df.steps_mean
     max_mean_count = count(>=(max_mean), field)
     all_count = length(field)
     return max_mean_count / all_count
+end
+
+struct HeatmapPlotData
+    budget::Vector{Float64}
+    horizon::Vector{Float64}
+    steps_mean::Matrix{Float64}
+    steps_std::Matrix{Float64}
 end
 
 function plot_heatmap_mean(plot_data::HeatmapPlotData, max_mean)
@@ -148,14 +199,6 @@ function plot_heatmap_std(plot_data::HeatmapPlotData, max_std=80)
         xlabel="Budget [-]",
         ylabel="Horizon [-]",
     )
-end
-
-
-struct HeatmapPlotData
-    budget::Vector{Float64}
-    horizon::Vector{Float64}
-    steps_mean::Matrix{Float64}
-    steps_std::Matrix{Float64}
 end
 
 function HeatmapPlotData(df_plot; use_gr=true)
